@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34278" started-at="2017-09-28T06:16:04Z" finished-at="2017-09-28T06:16:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34278" started-at="2017-09-28T06:16:04Z" finished-at="2017-09-28T06:16:38Z">
+      <class name="com.Ecolite_Web.Ecolite_Accounts.test">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Accounts.test@ff5b51f]" name="Setup" is-config="true" duration-ms="5827" started-at="2017-09-28T11:46:04Z" finished-at="2017-09-28T11:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="checkSales(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Accounts.test@ff5b51f]" name="checkSales" duration-ms="27997" started-at="2017-09-28T11:46:10Z" data-provider="StartSaleDetails" finished-at="2017-09-28T11:46:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chethan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arvindasav Liquid 200ml]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16C16009]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSales -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Accounts.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
