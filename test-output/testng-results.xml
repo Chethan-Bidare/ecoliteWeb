@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63853" started-at="2017-09-28T08:51:23Z" finished-at="2017-09-28T08:52:27Z">
+  <suite name="Default suite" duration-ms="100611" started-at="2017-09-28T10:09:53Z" finished-at="2017-09-28T10:11:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63853" started-at="2017-09-28T08:51:23Z" finished-at="2017-09-28T08:52:27Z">
+    <test name="Default test" duration-ms="100611" started-at="2017-09-28T10:09:53Z" finished-at="2017-09-28T10:11:34Z">
       <class name="com.Ecolite_Web.Ecolite_Accounts.test">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Accounts.test@ff5b51f]" name="Setup" is-config="true" duration-ms="6066" started-at="2017-09-28T14:21:23Z" finished-at="2017-09-28T14:21:29Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Accounts.test@ff5b51f]" name="Setup" is-config="true" duration-ms="6235" started-at="2017-09-28T15:39:53Z" finished-at="2017-09-28T15:40:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="checkSales(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Accounts.test@ff5b51f]" name="checkSales" duration-ms="57334" started-at="2017-09-28T14:21:30Z" data-provider="StartSaleDetails" finished-at="2017-09-28T14:22:27Z">
+        <test-method status="PASS" signature="checkSales(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Accounts.test@ff5b51f]" name="checkSales" duration-ms="93924" started-at="2017-09-28T15:40:00Z" data-provider="StartSaleDetails" finished-at="2017-09-28T15:41:34Z">
           <params>
             <param index="0">
               <value>

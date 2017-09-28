@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -26,7 +27,7 @@ WebElement Ok_Btn ;
 @FindBy(xpath="//*[@class='col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center cartdetailsdiv']")
 WebElement Cart ;
 
-@FindBy(id="deletecart")
+@FindBy(xpath="//button[@class='confirm btn btn-lg btn-info']")
 WebElement DeleteCart ;
 
   public CartPage(){
@@ -102,10 +103,13 @@ WebElement DeleteCart ;
 	
 	public void deleteItemfromCart() throws InterruptedException{
 		Cart.click();
-		WaitforElementsToLoad();
-		List<WebElement> Delete = driver.findElements(By.xpath(".//i[@class='fa fa-trash']"));
+		Thread.sleep(4000);
+		JavascriptExecutor jse = (JavascriptExecutor) driver ;
+		jse.executeScript("window.scrollBy(0,-550)","");
+		List<WebElement> Delete = driver.findElements(By.xpath(".//span[@class='card-title delicon']"));
 		for(WebElement we : Delete){
 			we.click();
+			Thread.sleep(2000);
 			DeleteCart.click();
 			Thread.sleep(4000);
 		}
