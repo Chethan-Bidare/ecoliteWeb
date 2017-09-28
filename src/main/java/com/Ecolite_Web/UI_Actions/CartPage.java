@@ -22,9 +22,12 @@ WebElement AddQtyBtn ;
 
 @FindBy(xpath="//button[text()='OK']")
 WebElement Ok_Btn ;
-/*
-@FindBy(id="qty")
-WebElement Qty ;*/
+
+@FindBy(xpath="//*[@class='col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center cartdetailsdiv']")
+WebElement Cart ;
+
+@FindBy(id="deletecart")
+WebElement DeleteCart ;
 
   public CartPage(){
 	PageFactory.initElements(driver, this);
@@ -97,7 +100,15 @@ WebElement Qty ;*/
 	}
 	
 	
-	public void deleteItemfromCart(){
+	public void deleteItemfromCart() throws InterruptedException{
+		Cart.click();
+		WaitforElementsToLoad();
+		List<WebElement> Delete = driver.findElements(By.xpath(".//i[@class='fa fa-trash']"));
+		for(WebElement we : Delete){
+			we.click();
+			DeleteCart.click();
+			Thread.sleep(4000);
+		}
 		
 	}
   

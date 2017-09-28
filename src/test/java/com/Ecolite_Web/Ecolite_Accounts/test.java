@@ -40,9 +40,8 @@ public static final Logger log = Logger.getLogger(test.class.getName());
 		Dashboard db = new Dashboard();
 		db.StartSale(CustomerName);
 		CartPage cartpage = new CartPage();
-		cartpage.Select_Item_By_Name(ItemName);
-		cartpage.select_Batch(BatchNo);
-		cartpage.Add_Qty(Qty);
+		cartpage.Select_5_ItemsAndAddQty();
+		cartpage.deleteItemfromCart();
 		
 	}
 	
