@@ -77,6 +77,7 @@ WebElement Qty ;*/
 		Ok_Btn.click();
 		log.info("Clicked on OK button from popup and the object is :"+Ok_Btn);
 		Thread.sleep(3000);
+		
 	}
 
 	
@@ -93,6 +94,11 @@ WebElement Qty ;*/
 			}
 		}
 		Thread.sleep(4000);
+	}
+	
+	
+	public void deleteItemfromCart(){
+		
 	}
   
 
