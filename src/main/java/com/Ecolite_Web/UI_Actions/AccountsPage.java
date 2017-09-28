@@ -13,4 +13,5 @@ public class AccountsPage extends TestBase{
 		driver.findElement(By.xpath("//a[@href='/ecolite/"+Name+"/"+Name+"']")).click();
 		log.info("Selecting "+Name +" from Accounts in Mystore page");
 	}
+	//checkin git
 }
