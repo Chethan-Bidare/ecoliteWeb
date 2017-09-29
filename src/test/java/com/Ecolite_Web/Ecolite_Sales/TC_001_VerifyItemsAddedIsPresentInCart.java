@@ -14,9 +14,9 @@ import com.Ecolite_Web.UI_Actions.CartPage;
 import com.Ecolite_Web.UI_Actions.Dashboard;
 import com.Ecolite_Web.UI_Actions.LoginPage;
 
-public class TC_001_AddItemsToCart extends TestBase{
+public class TC_001_VerifyItemsAddedIsPresentInCart extends TestBase{
 
-	public static final Logger log = Logger.getLogger(TC_001_AddItemsToCart.class.getName());
+	public static final Logger log = Logger.getLogger(TC_001_VerifyItemsAddedIsPresentInCart.class.getName());
 	
 	
 	
