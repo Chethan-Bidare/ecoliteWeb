@@ -1599,3 +1599,413 @@
 2017-09-28 15:40:50 INFO  CartPage:48 - Qty 5 is entered
 2017-09-28 15:40:53 INFO  CartPage:51 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (140d35db0b8550ee81c5582ab8aad8d6)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
 2017-09-28 15:40:56 INFO  CartPage:54 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (140d35db0b8550ee81c5582ab8aad8d6)] -> xpath: //button[text()='OK']]
+2017-09-28 23:52:00 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-28 23:53:30 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-28 23:55:46 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-28 23:57:21 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-28 23:59:35 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-28 23:59:35 INFO  LoginPage:44 - Clearing the input field 
+2017-09-28 23:59:36 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-28 23:59:36 INFO  LoginPage:48 - Clearing the input field 
+2017-09-28 23:59:36 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-28 23:59:49 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-28 23:59:53 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-28 23:59:53 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-28 23:59:53 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-28 23:59:54 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> id: qty]
+2017-09-28 23:59:54 INFO  CartPage:56 - Qty 5 is entered
+2017-09-28 23:59:58 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:00:01 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[text()='OK']]
+2017-09-29 00:00:04 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:00:05 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:00:05 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> id: qty]
+2017-09-29 00:00:06 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:00:09 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:00:12 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[text()='OK']]
+2017-09-29 00:00:15 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:00:16 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:00:17 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> id: qty]
+2017-09-29 00:00:17 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:00:20 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:00:23 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[text()='OK']]
+2017-09-29 00:00:27 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:00:27 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:00:28 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> id: qty]
+2017-09-29 00:00:28 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:00:32 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:00:35 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[text()='OK']]
+2017-09-29 00:00:38 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:00:39 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:00:39 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> id: qty]
+2017-09-29 00:00:39 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:00:43 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:00:46 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (6777450edaeb913344178180413e4dc9)] -> xpath: //button[text()='OK']]
+2017-09-29 00:01:02 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 00:01:02 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:02:57 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 00:02:57 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 00:02:58 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 00:02:58 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 00:02:58 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 00:03:07 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 00:03:11 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 00:03:11 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:03:11 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:03:12 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> id: qty]
+2017-09-29 00:03:12 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:03:16 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:03:19 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[text()='OK']]
+2017-09-29 00:03:22 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:03:23 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:03:23 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> id: qty]
+2017-09-29 00:03:24 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:03:27 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:03:31 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[text()='OK']]
+2017-09-29 00:03:34 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:03:34 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:03:35 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> id: qty]
+2017-09-29 00:03:35 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:03:39 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:03:42 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[text()='OK']]
+2017-09-29 00:03:45 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:03:46 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:03:46 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> id: qty]
+2017-09-29 00:03:47 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:03:50 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:03:53 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[text()='OK']]
+2017-09-29 00:03:56 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 00:03:57 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 00:03:57 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> id: qty]
+2017-09-29 00:03:58 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 00:04:01 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 00:04:04 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (5f4b9f919d80edde72fac5efa89f3267)] -> xpath: //button[text()='OK']]
+2017-09-29 00:04:20 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 00:04:20 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:13:25 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 16:13:26 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 16:13:26 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 16:13:26 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 16:13:26 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 16:13:36 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 16:13:40 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 16:13:40 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:13:40 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:13:41 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> id: qty]
+2017-09-29 16:13:41 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:13:45 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:13:48 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[text()='OK']]
+2017-09-29 16:13:51 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:13:52 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:13:52 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> id: qty]
+2017-09-29 16:13:53 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:13:56 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:14:00 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[text()='OK']]
+2017-09-29 16:14:03 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:14:03 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:14:04 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> id: qty]
+2017-09-29 16:14:04 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:14:08 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:14:11 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[text()='OK']]
+2017-09-29 16:14:14 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:14:14 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:14:15 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> id: qty]
+2017-09-29 16:14:15 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:14:19 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:14:22 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[text()='OK']]
+2017-09-29 16:14:25 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:14:26 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:14:26 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> id: qty]
+2017-09-29 16:14:26 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:14:30 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:14:33 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (dc344e8c866bec811bdbd571fdb1e238)] -> xpath: //button[text()='OK']]
+2017-09-29 16:22:07 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 16:22:08 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 16:22:08 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 16:22:08 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 16:22:08 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 16:22:38 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 16:22:42 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 16:22:42 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:22:47 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:22:48 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> id: qty]
+2017-09-29 16:22:48 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:22:56 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:23:05 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[text()='OK']]
+2017-09-29 16:23:08 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:23:13 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:23:13 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> id: qty]
+2017-09-29 16:23:13 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:23:22 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:23:30 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[text()='OK']]
+2017-09-29 16:23:33 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:23:38 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:23:38 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> id: qty]
+2017-09-29 16:23:39 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:23:47 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:23:55 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[text()='OK']]
+2017-09-29 16:23:59 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:24:04 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:24:04 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> id: qty]
+2017-09-29 16:24:04 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:24:13 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:24:21 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[text()='OK']]
+2017-09-29 16:24:24 INFO  CartPage:50 - Storing the item name into an arraylist
+2017-09-29 16:24:29 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //*[@class='waves-effect waves-light additembatch']]
+2017-09-29 16:24:29 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> id: qty]
+2017-09-29 16:24:30 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:24:38 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:24:46 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (48f8704b0946c724f125e6d2554ae00e)] -> xpath: //button[text()='OK']]
+2017-09-29 16:27:29 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 16:27:29 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 16:27:29 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 16:27:29 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 16:27:30 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 16:27:58 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 16:28:02 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 16:28:03 INFO  CartPage:50 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 16:28:03 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (8c0ca510328dbf712cb003470d4226bf)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:28:03 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (8c0ca510328dbf712cb003470d4226bf)] -> id: qty]
+2017-09-29 16:28:03 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:28:07 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (8c0ca510328dbf712cb003470d4226bf)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:28:10 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (8c0ca510328dbf712cb003470d4226bf)] -> xpath: //button[text()='OK']]
+2017-09-29 16:28:14 INFO  CartPage:50 - Storing the item name into an arraylistArza 10mg Tab
+2017-09-29 16:28:14 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (8c0ca510328dbf712cb003470d4226bf)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:28:14 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (8c0ca510328dbf712cb003470d4226bf)] -> id: qty]
+2017-09-29 16:28:14 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:28:18 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (8c0ca510328dbf712cb003470d4226bf)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:29:01 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 16:29:01 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 16:29:01 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 16:29:01 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 16:29:02 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 16:29:30 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 16:29:34 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 16:29:34 INFO  CartPage:50 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 16:29:35 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:29:35 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> id: qty]
+2017-09-29 16:29:35 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:29:39 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:29:42 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[text()='OK']]
+2017-09-29 16:29:46 INFO  CartPage:50 - Storing the item name into an arraylistArza 10mg Tab
+2017-09-29 16:29:46 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:29:46 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> id: qty]
+2017-09-29 16:29:46 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:29:50 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:29:53 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[text()='OK']]
+2017-09-29 16:29:56 INFO  CartPage:50 - Storing the item name into an arraylistArza 15mg Tab
+2017-09-29 16:29:57 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:29:57 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> id: qty]
+2017-09-29 16:29:58 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:30:01 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:30:04 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[text()='OK']]
+2017-09-29 16:30:08 INFO  CartPage:50 - Storing the item name into an arraylistArzade Cap
+2017-09-29 16:30:08 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:30:08 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> id: qty]
+2017-09-29 16:30:08 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:30:12 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:30:15 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[text()='OK']]
+2017-09-29 16:30:18 INFO  CartPage:50 - Storing the item name into an arraylistROMSON FLATUS ADULT TUBE
+2017-09-29 16:30:19 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:30:19 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> id: qty]
+2017-09-29 16:30:19 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:30:23 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:30:26 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (85e4fe0f489407a4712b2d92885b1cfc)] -> xpath: //button[text()='OK']]
+2017-09-29 16:35:55 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 16:35:55 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 16:35:55 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 16:35:56 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 16:35:56 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 16:36:24 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 16:36:29 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 16:36:29 INFO  CartPage:50 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 16:36:29 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:36:30 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> id: qty]
+2017-09-29 16:36:30 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:36:33 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:36:37 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[text()='OK']]
+2017-09-29 16:36:40 INFO  CartPage:50 - Storing the item name into an arraylistArza 10mg Tab
+2017-09-29 16:36:40 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:36:41 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> id: qty]
+2017-09-29 16:36:41 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:36:45 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:36:48 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[text()='OK']]
+2017-09-29 16:36:51 INFO  CartPage:50 - Storing the item name into an arraylistArza 15mg Tab
+2017-09-29 16:36:51 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:36:52 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> id: qty]
+2017-09-29 16:36:52 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:36:56 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:36:59 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[text()='OK']]
+2017-09-29 16:37:02 INFO  CartPage:50 - Storing the item name into an arraylistArzade Cap
+2017-09-29 16:37:02 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:37:03 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> id: qty]
+2017-09-29 16:37:03 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:37:06 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:37:10 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[text()='OK']]
+2017-09-29 16:37:13 INFO  CartPage:50 - Storing the item name into an arraylistROMSON FLATUS ADULT TUBE
+2017-09-29 16:37:13 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:37:14 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> id: qty]
+2017-09-29 16:37:14 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:37:17 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:37:21 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (d1881ef1be8caa5b834e4de9d2f3d436)] -> xpath: //button[text()='OK']]
+2017-09-29 16:43:32 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 16:43:32 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 16:43:32 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 16:43:32 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 16:43:33 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 16:44:01 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 16:44:05 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 16:44:05 INFO  CartPage:50 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 16:44:06 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:44:06 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> id: qty]
+2017-09-29 16:44:06 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:44:10 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:44:13 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[text()='OK']]
+2017-09-29 16:44:17 INFO  CartPage:50 - Storing the item name into an arraylistArza 10mg Tab
+2017-09-29 16:44:17 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:44:17 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> id: qty]
+2017-09-29 16:44:18 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:44:21 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:44:24 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[text()='OK']]
+2017-09-29 16:44:28 INFO  CartPage:50 - Storing the item name into an arraylistArza 15mg Tab
+2017-09-29 16:44:28 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:44:28 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> id: qty]
+2017-09-29 16:44:28 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:44:32 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:44:35 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[text()='OK']]
+2017-09-29 16:44:38 INFO  CartPage:50 - Storing the item name into an arraylistArzade Cap
+2017-09-29 16:44:39 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:44:39 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> id: qty]
+2017-09-29 16:44:39 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:44:43 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:44:46 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[text()='OK']]
+2017-09-29 16:44:49 INFO  CartPage:50 - Storing the item name into an arraylistROMSON FLATUS ADULT TUBE
+2017-09-29 16:44:50 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:44:50 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> id: qty]
+2017-09-29 16:44:50 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:44:54 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:44:57 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (da0045e5850c650cd3b47161e7bfcde3)] -> xpath: //button[text()='OK']]
+2017-09-29 16:47:55 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 16:47:55 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 16:47:55 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 16:47:55 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 16:47:56 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 16:48:24 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 16:48:28 INFO  CartPage:44 - Fetching all the elements of items
+2017-09-29 16:48:28 INFO  CartPage:50 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 16:48:29 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:48:29 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> id: qty]
+2017-09-29 16:48:29 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:48:33 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:48:37 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: //button[text()='OK']]
+2017-09-29 16:48:40 INFO  CartPage:50 - Storing the item name into an arraylistArza 10mg Tab
+2017-09-29 16:48:40 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:48:41 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> id: qty]
+2017-09-29 16:48:41 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:48:44 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:48:47 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: //button[text()='OK']]
+2017-09-29 16:48:51 INFO  CartPage:50 - Storing the item name into an arraylistArza 15mg Tab
+2017-09-29 16:48:51 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:48:51 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> id: qty]
+2017-09-29 16:48:51 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 16:48:55 INFO  CartPage:59 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 16:48:58 INFO  CartPage:62 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: //button[text()='OK']]
+2017-09-29 16:49:01 INFO  CartPage:50 - Storing the item name into an arraylistArzade Cap
+2017-09-29 16:49:02 INFO  CartPage:52 - Clicked on item and object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 16:49:02 INFO  CartPage:54 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (f4403086a2cfca1501bc7b67fe1ad17e)] -> id: qty]
+2017-09-29 16:49:02 INFO  CartPage:56 - Qty 5 is entered
+2017-09-29 17:06:08 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 17:06:08 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 17:06:08 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 17:06:09 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 17:06:09 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 17:06:19 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 17:06:22 INFO  CartPage:49 - Fetching all the elements of items
+2017-09-29 17:06:22 INFO  CartPage:55 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 17:06:23 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (c6634d99a05f2a79d20d5309ece5262d)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:06:23 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (c6634d99a05f2a79d20d5309ece5262d)] -> id: qty]
+2017-09-29 17:06:23 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:08:23 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 17:08:23 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 17:08:23 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 17:08:23 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 17:08:24 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 17:08:33 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 17:08:36 INFO  CartPage:49 - Fetching all the elements of items
+2017-09-29 17:08:36 INFO  CartPage:55 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 17:08:37 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (4de1781b607deeb989591042eac9064b)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:08:37 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (4de1781b607deeb989591042eac9064b)] -> id: qty]
+2017-09-29 17:08:37 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:10:56 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 17:10:56 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 17:10:56 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 17:10:56 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 17:10:57 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 17:11:08 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 17:11:12 INFO  CartPage:49 - Fetching all the elements of items
+2017-09-29 17:11:12 INFO  CartPage:55 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 17:11:12 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:11:12 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> id: qty]
+2017-09-29 17:11:13 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:11:16 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:11:20 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[text()='OK']]
+2017-09-29 17:11:20 INFO  CartPage:55 - Storing the item name into an arraylistArza 10mg Tab
+2017-09-29 17:11:20 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:11:21 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> id: qty]
+2017-09-29 17:11:21 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:11:24 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:11:27 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[text()='OK']]
+2017-09-29 17:11:27 INFO  CartPage:55 - Storing the item name into an arraylistArza 15mg Tab
+2017-09-29 17:11:27 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:11:28 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> id: qty]
+2017-09-29 17:11:28 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:11:32 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:11:35 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[text()='OK']]
+2017-09-29 17:11:35 INFO  CartPage:55 - Storing the item name into an arraylistArzade Cap
+2017-09-29 17:11:35 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:11:36 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> id: qty]
+2017-09-29 17:11:36 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:11:39 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:11:42 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[text()='OK']]
+2017-09-29 17:11:42 INFO  CartPage:55 - Storing the item name into an arraylistROMSON FLATUS ADULT TUBE
+2017-09-29 17:11:42 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:11:43 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> id: qty]
+2017-09-29 17:11:43 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:11:46 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:11:49 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (73d5262dc447e601d9c79d8fea408976)] -> xpath: //button[text()='OK']]
+2017-09-29 17:13:51 INFO  TC_001_AddItemsToCart:26 - Initialising Setup Config
+2017-09-29 17:13:51 INFO  LoginPage:44 - Clearing the input field 
+2017-09-29 17:13:52 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-09-29 17:13:52 INFO  LoginPage:48 - Clearing the input field 
+2017-09-29 17:13:52 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-09-29 17:14:01 INFO  LoginPage:52 - Clicked on Login button 
+2017-09-29 17:14:05 INFO  CartPage:49 - Fetching all the elements of items
+2017-09-29 17:14:05 INFO  CartPage:55 - Storing the item name into an arraylistArvindasav Liquid 200ml
+2017-09-29 17:14:05 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:14:06 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> id: qty]
+2017-09-29 17:14:06 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:14:10 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:14:13 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[text()='OK']]
+2017-09-29 17:14:13 INFO  CartPage:55 - Storing the item name into an arraylistArza 10mg Tab
+2017-09-29 17:14:13 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:14:14 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> id: qty]
+2017-09-29 17:14:14 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:14:18 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:14:21 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[text()='OK']]
+2017-09-29 17:14:21 INFO  CartPage:55 - Storing the item name into an arraylistArza 15mg Tab
+2017-09-29 17:14:21 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:14:22 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> id: qty]
+2017-09-29 17:14:22 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:14:25 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:14:28 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[text()='OK']]
+2017-09-29 17:14:28 INFO  CartPage:55 - Storing the item name into an arraylistArzade Cap
+2017-09-29 17:14:29 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:14:29 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> id: qty]
+2017-09-29 17:14:29 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:14:33 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:14:35 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[text()='OK']]
+2017-09-29 17:14:35 INFO  CartPage:55 - Storing the item name into an arraylistROMSON FLATUS ADULT TUBE
+2017-09-29 17:14:36 INFO  CartPage:57 - Clicked on item and object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: .//h5[@class='card-title itemname']]
+2017-09-29 17:14:36 INFO  CartPage:60 - Clearing the Qty field and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> id: qty]
+2017-09-29 17:14:36 INFO  CartPage:62 - Qty 5 is entered
+2017-09-29 17:14:40 INFO  CartPage:66 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-09-29 17:14:42 INFO  CartPage:69 - Clicked on OK button from popup and the object is :[[ChromeDriver: chrome on XP (c321452a039e9484b09b08a0f32a4334)] -> xpath: //button[text()='OK']]

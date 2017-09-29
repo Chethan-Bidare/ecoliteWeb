@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Ecolite_Web.Ecolite_Accounts.test">
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_001_AddItemsToCart">
         <methods>
-          <include name="checkSales" invocation-numbers="0"/>
+          <include name="CheckItemsAddedToCart"/>
           <include name="Setup"/>
         </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Accounts.test -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_001_AddItemsToCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,47 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="100611" started-at="2017-09-28T10:09:53Z" finished-at="2017-09-28T10:11:34Z">
+  <suite name="Default suite" duration-ms="66373" started-at="2017-09-29T11:43:40Z" finished-at="2017-09-29T11:44:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="100611" started-at="2017-09-28T10:09:53Z" finished-at="2017-09-28T10:11:34Z">
-      <class name="com.Ecolite_Web.Ecolite_Accounts.test">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Accounts.test@ff5b51f]" name="Setup" is-config="true" duration-ms="6235" started-at="2017-09-28T15:39:53Z" finished-at="2017-09-28T15:40:00Z">
+    <test name="Default test" duration-ms="66373" started-at="2017-09-29T11:43:40Z" finished-at="2017-09-29T11:44:47Z">
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_001_AddItemsToCart">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_001_AddItemsToCart@6e06451e]" name="Setup" is-config="true" duration-ms="10584" started-at="2017-09-29T17:13:40Z" finished-at="2017-09-29T17:13:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="checkSales(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Accounts.test@ff5b51f]" name="checkSales" duration-ms="93924" started-at="2017-09-28T15:40:00Z" data-provider="StartSaleDetails" finished-at="2017-09-28T15:41:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chethan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Arvindasav Liquid 200ml]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[16C16009]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="CheckItemsAddedToCart()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_001_AddItemsToCart@6e06451e]" name="CheckItemsAddedToCart" duration-ms="55733" started-at="2017-09-29T17:13:51Z" finished-at="2017-09-29T17:14:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkSales -->
-      </class> <!-- com.Ecolite_Web.Ecolite_Accounts.test -->
+        </test-method> <!-- CheckItemsAddedToCart -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_001_AddItemsToCart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
