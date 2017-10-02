@@ -46,9 +46,9 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyCustomerNameInCar
 		CheckOutPage checkoutpage = new CheckOutPage();
 		String customerName = checkoutpage.getCustomerName();
 		try {
-			CustomerName.toUpperCase();
-			customerName.toUpperCase();
-			Assert.assertEquals(customerName, CustomerName);
+			String CustomerNameEntered = CustomerName.toUpperCase();
+			String CustomerNameFound = customerName.toUpperCase();
+			Assert.assertEquals(CustomerNameFound, CustomerNameEntered);
 			log.info("===== Test VerifyCustomerNameInCartPage Finished =======");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

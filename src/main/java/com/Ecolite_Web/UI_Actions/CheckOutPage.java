@@ -9,6 +9,8 @@ import com.Ecolite_Web.TestBase.TestBase;
 public class CheckOutPage extends TestBase{
 
 	public static final Logger log = Logger.getLogger(CheckOutPage.class.getName());
+
+	private static final String String = null;
 	
 	@FindBy(id="customername")
 	WebElement customername ;
@@ -47,12 +49,13 @@ public class CheckOutPage extends TestBase{
 	WebElement ConfirmBtn ;
 	
 	public String getCustomerName(){
-		customername.getText();
-		if(customername.getText()==null){
-			return "" ;
+
+		try{
+			return customername.getText().toString();
 		}
-		else
-		return customername.getText() ;
+		catch(NullPointerException ne){
+			return " " ;
+		}
 		
 	}
 	
