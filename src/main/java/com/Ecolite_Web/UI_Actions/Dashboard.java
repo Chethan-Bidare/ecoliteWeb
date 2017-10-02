@@ -1,5 +1,7 @@
 package com.Ecolite_Web.UI_Actions;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -78,7 +80,23 @@ public class Dashboard extends TestBase{
 	
 	public void StartSale(String CustomerName){
 		this.CustomerName.sendKeys(CustomerName);
-		StartSale_Btn.click();
+		try{
+			WebElement AutoOptions = driver.findElement(By.id("ui-id-2"));
+			Thread.sleep(4000);
+			if(AutoOptions.isDisplayed()==true){
+				List<WebElement> CustNames = driver.findElements(By.tagName("li"));
+				for(WebElement we : CustNames){
+					if(we.getText().equalsIgnoreCase(CustomerName)){
+						we.click();
+					}
+				}
+			}
+			StartSale_Btn.click();
+			
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
 	}
 	
 	

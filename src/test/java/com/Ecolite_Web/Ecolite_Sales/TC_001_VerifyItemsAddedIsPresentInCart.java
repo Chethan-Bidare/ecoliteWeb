@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -34,6 +35,7 @@ public class TC_001_VerifyItemsAddedIsPresentInCart extends TestBase{
 	
 	@Test
 	public void CheckItemsAddedToCart() throws InterruptedException{
+		log.info("===== TC_001_VerifyItemsAddedIsPresentInCart Started =====");
 		LoginPage lp = new LoginPage(driver);
 		lp.LoginIntoApplication(OR.getProperty("Mobile"), OR.getProperty("password"));
 		Dashboard db = new Dashboard();
@@ -49,5 +51,13 @@ public class TC_001_VerifyItemsAddedIsPresentInCart extends TestBase{
 		Assert.assertEquals(itemNamesAddedToCart.get(i).toString(), itemNamesFoundInCart.get(i).toString());
 		
 		}
+		log.info("===== TC_001_VerifyItemsAddedIsPresentInCart Finished =====");
 	}
+	
+	@AfterClass
+	public void closeBrowser(){
+		CloseBrowser();
+		
+	}
+	
 }

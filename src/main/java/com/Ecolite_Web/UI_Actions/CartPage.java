@@ -17,8 +17,8 @@ import com.Ecolite_Web.TestBase.TestBase;
 public class CartPage extends TestBase{
 	
 public static final Logger log = Logger.getLogger(CartPage.class.getName());
+WebDriverWait wait = new WebDriverWait(driver, 30);
 
-WebDriverWait wait = new WebDriverWait(driver, 60);
 
 @FindBy(id="qty")
 WebElement Qty ;
@@ -38,6 +38,12 @@ WebElement DeleteCart ;
 @FindBy(xpath=".//h5[@class='card-title itemname']")
 WebElement Item ;
 
+@FindBy(xpath="//h4[contains(text(),'Proceed')]")
+WebElement ProceedBtn ;
+
+@FindBy(xpath="//span[@id='customername']")
+WebElement CustomerName ;
+
   public CartPage(){
 	PageFactory.initElements(driver, this);
 }
@@ -52,7 +58,7 @@ WebElement Item ;
 		WebElement item = Items.get(i) ;
 		
 		arr.add(Items.get(i).getText());
-		log.info("Storing the item name into an arraylist" +Items.get(i).getText());
+		log.info("Storing the item name into an arraylist" +arr.get(i));
 		item.click();
 		log.info("Clicked on item and object is :"+item.toString());
 		wait.until(ExpectedConditions.elementToBeClickable(Qty));
@@ -121,14 +127,17 @@ WebElement Item ;
 	
 	public void deleteItemfromCart() throws InterruptedException{
 		Cart.click();
+		log.info("Clicked on Cart and object is :"+Cart);
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(".//span[@class='card-title delicon']")));
 		JavascriptExecutor jse = (JavascriptExecutor) driver ;
 		jse.executeScript("window.scrollBy(0,-550)","");
 		List<WebElement> Delete = driver.findElements(By.xpath(".//span[@class='card-title delicon']"));
 		for(WebElement we : Delete){
 			we.click();
+			log.info("Clicked on delete icon for the item to delete and object is "+we);
 			wait.until(ExpectedConditions.elementToBeClickable(DeleteCart));
 			DeleteCart.click();
+			log.info("Deleting the item from the cart and the object is :"+DeleteCart);
 			Thread.sleep(4000);
 		}
 		
@@ -137,16 +146,29 @@ WebElement Item ;
 	public ArrayList<String> getItemNamesFromCartList() throws InterruptedException{
 		ArrayList<String> arr1 = new ArrayList<String>();
 		Cart.click();
-		
+		log.info("Clicked on Cart and object is :"+Cart);
 		JavascriptExecutor jse = (JavascriptExecutor)driver ;
 		jse.executeScript("window.scrollBy(0,-550)", "");
 		Thread.sleep(3000);
 		List<WebElement> ItemNames = driver.findElements(By.xpath(".//h5[@class='card-title itemname']"));
 		for( int i=100;i<ItemNames.size();i++){
 			arr1.add(ItemNames.get(i).getText());
-			System.out.println("itm name found in cart :"+ItemNames.get(i).getText());
+			log.info("Fetching the item name and storing it in an array"+arr1.get(i));
 		}
 		return arr1 ;
+	}
+	
+	public void Proceed(){
+		JavascriptExecutor jse = (JavascriptExecutor)driver ;
+		jse.executeScript("window.scrollBy(0,550)", "");
+		wait.until(ExpectedConditions.elementToBeClickable(ProceedBtn));
+		ProceedBtn.click();
+	}
+	
+	public String getCustNameFromCartPage(){
+		wait.until(ExpectedConditions.elementToBeClickable(CustomerName));
+		String customerName = this.CustomerName.getText();
+		return customerName ;
 	}
   
 

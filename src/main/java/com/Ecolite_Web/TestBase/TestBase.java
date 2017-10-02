@@ -13,7 +13,6 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,9 +21,9 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.Ecolite_Web.ExcelReader.ExcelReader;
-import com.Ecolite_Web.UI_Actions.Dashboard;
 
 
 public class TestBase {
@@ -34,7 +33,7 @@ public class TestBase {
 	public static WebDriver driver ;
 	public Properties OR = new Properties();
 	public String CheckMst ;
-	
+	//public WebDriverWait wait = new WebDriverWait(driver, 60);
 	
 	
 	public void LoadFromProperties() throws IOException{
