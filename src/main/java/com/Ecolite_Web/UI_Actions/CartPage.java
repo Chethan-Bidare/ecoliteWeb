@@ -44,6 +44,9 @@ WebElement ProceedBtn ;
 @FindBy(xpath="//span[@id='customername']")
 WebElement CustomerName ;
 
+@FindBy(xpath="//span[@class='grey']")
+WebElement Stock ;
+
   public CartPage(){
 	PageFactory.initElements(driver, this);
 }
@@ -163,13 +166,44 @@ WebElement CustomerName ;
 		jse.executeScript("window.scrollBy(0,550)", "");
 		wait.until(ExpectedConditions.elementToBeClickable(ProceedBtn));
 		ProceedBtn.click();
+		log.info("Clicked on Proceed button and the object is "+ProceedBtn);
 	}
 	
 	public String getCustNameFromCartPage(){
 		wait.until(ExpectedConditions.elementToBeClickable(CustomerName));
 		String customerName = this.CustomerName.getText();
+		log.info("Fetching customer name from Cart Page "+customerName);
 		return customerName ;
 	}
   
-
+	public int getStock(){
+		List<WebElement> CurrentStock = driver.findElements(By.xpath("//span[@class='grey']"));
+		String Stock = CurrentStock.get(0).getText().toString();
+		Stock = Stock.substring(1);
+		int stock = Integer.parseInt(Stock);
+		log.info("Fetching current stock :"+stock);
+		return stock ;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
