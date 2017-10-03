@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="com.Ecolite_Web.Listeners.Listeners"/>
   </listeners>
-  <test name="Test(failed)" parallel="classes">
+  <test name="Test(failed)">
     <classes>
-      <class name="com.Ecolite_Web.Ecolite_Masters.TC_001_AddNew_Customer">
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage">
         <methods>
-          <include name="Setup"/>
-          <include name="AddNewCustomer_Test"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Masters.TC_001_AddNew_Customer -->
-      <class name="com.Ecolite_Web.Ecolite_Login.TC_001_LoginTest_WithValidData">
-        <methods>
-          <include name="Setup"/>
-          <include name="closeBrowser"/>
-          <include name="LoginTest"/>
-        </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Login.TC_001_LoginTest_WithValidData -->
-      <class name="com.Ecolite_Web.Ecolite_Masters.TC_002_AddNew_Supplier">
-        <methods>
-          <include name="AddNewSupplier_Test"/>
+          <include name="VerifyCustomerNameInCartPag" invocation-numbers="0"/>
           <include name="Setup"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Masters.TC_002_AddNew_Supplier -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

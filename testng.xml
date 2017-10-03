@@ -6,9 +6,10 @@
 </listeners>
   <test name="Test">
     <classes>
-      <class name="com.Ecolite_Web.Ecolite_Login.TC_001_LoginTest_WithValidData"/>
-      <class name="com.Ecolite_Web.Ecolite_Masters.TC_001_AddNew_Customer"/>
-      <class name="com.Ecolite_Web.Ecolite_Masters.TC_002_AddNew_Supplier"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

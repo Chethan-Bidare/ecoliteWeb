@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 23 10:05:24 IST 2017</td>
+<td>Started on:</td><td>Tue Oct 03 10:25:56 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>112 seconds (112759 ms)</td>
+<tr><td>Total time:</td><td>135 seconds (135894 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,62 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage.VerifyCustomerNameInCartPag()'><b>VerifyCustomerNameInCartPag</b><br>Test class: com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage<br>Parameters: 8147519664, 000999, Chethan<br/>
+<a href="#Output-1288108586" onClick='toggleBox("Output-1288108586", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1288108586" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1288108586">
+<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_276_10_10_03.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_276_10_10_03.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [CHETHAN] but found []
+	at com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage.VerifyCustomerNameInCartPag(TC_003_VerifyCustomerNameInCheckOutPage.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1288108586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1288108586'><pre>java.lang.AssertionError: expected [CHETHAN] but found []
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage.VerifyCustomerNameInCartPag(TC_003_VerifyCustomerNameInCheckOutPage.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@4bec1f0c</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,41 +131,41 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Ecolite_Web.Ecolite_Masters.TC_001_AddNew_Customer.AddNewCustomer_Test()'><b>AddNewCustomer_Test</b><br>Test class: com.Ecolite_Web.Ecolite_Masters.TC_001_AddNew_Customer<br/>
-<a href="#Output-2113748097" onClick='toggleBox("Output-2113748097", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart.CheckItemsAddedToCart()'><b>CheckItemsAddedToCart</b><br>Test class: com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart<br/>
+<a href="#Output-1604247316" onClick='toggleBox("Output-1604247316", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2113748097" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2113748097">
-<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\AddNewCustomer_Test_2017_09_266_10_09_682.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\AddNewCustomer_Test_2017_09_266_10_09_682.png' hieght='100' width='100' /></a><br/>
+<a href="#Output-1604247316" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1604247316">
+<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\CheckItemsAddedToCart_2017_10_276_10_10_252.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\CheckItemsAddedToCart_2017_10_276_10_10_252.png' hieght='100' width='100' /></a><br/>
 </div>
 </td>
 <td></td>
-<td>62</td>
-<td>com.Ecolite_Web.Ecolite_Masters.TC_001_AddNew_Customer@69ea3742</td></tr>
+<td>46</td>
+<td>com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart@3159c4b8</td></tr>
 <tr>
-<td title='com.Ecolite_Web.Ecolite_Masters.TC_002_AddNew_Supplier.AddNewSupplier_Test()'><b>AddNewSupplier_Test</b><br>Test class: com.Ecolite_Web.Ecolite_Masters.TC_002_AddNew_Supplier<br/>
-<a href="#Output-442199874" onClick='toggleBox("Output-442199874", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage.VerifyCustomerNameInCartPag()'><b>VerifyCustomerNameInCartPag</b><br>Test class: com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage<br>Parameters: 8147519664, 000999, Chethan<br/>
+<a href="#Output-373097727" onClick='toggleBox("Output-373097727", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-442199874" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-442199874">
-<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\AddNewSupplier_Test_2017_09_266_10_09_820.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\AddNewSupplier_Test_2017_09_266_10_09_820.png' hieght='100' width='100' /></a><br/>
+<a href="#Output-373097727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-373097727">
+<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\VerifyCustomerNameInCartPag_2017_10_276_10_10_472.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\VerifyCustomerNameInCartPag_2017_10_276_10_10_472.png' hieght='100' width='100' /></a><br/>
 </div>
 </td>
 <td></td>
-<td>20</td>
-<td>com.Ecolite_Web.Ecolite_Masters.TC_002_AddNew_Supplier@4b952a2d</td></tr>
+<td>13</td>
+<td>com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage@73846619</td></tr>
 <tr>
-<td title='com.Ecolite_Web.Ecolite_Login.TC_001_LoginTest_WithValidData.LoginTest()'><b>LoginTest</b><br>Test class: com.Ecolite_Web.Ecolite_Login.TC_001_LoginTest_WithValidData<br/>
-<a href="#Output-1399794302" onClick='toggleBox("Output-1399794302", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale.VerifyStockAfterSale()'><b>VerifyStockAfterSale</b><br>Test class: com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale<br/>
+<a href="#Output-628392976" onClick='toggleBox("Output-628392976", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1399794302" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1399794302">
-<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\LoginTest_2017_09_266_10_09_84.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\LoginTest_2017_09_266_10_09_84.png' hieght='100' width='100' /></a><br/>
+<a href="#Output-628392976" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-628392976">
+<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\VerifyStockAfterSale_2017_10_276_10_10_66.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\SuccessScreenshots\VerifyStockAfterSale_2017_10_276_10_10_66.png' hieght='100' width='100' /></a><br/>
 </div>
 </td>
 <td></td>
-<td>7</td>
-<td>com.Ecolite_Web.Ecolite_Login.TC_001_LoginTest_WithValidData@5702b3b1</td></tr>
+<td>24</td>
+<td>com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale@29ca901e</td></tr>
 </table><p>
 </body>
 </html>

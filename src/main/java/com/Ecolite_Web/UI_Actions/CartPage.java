@@ -29,7 +29,7 @@ WebElement AddQtyBtn ;
 @FindBy(xpath="//button[text()='OK']")
 WebElement Ok_Btn ;
 
-@FindBy(xpath="//*[@class='col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center cartdetailsdiv']")
+@FindBy(xpath="//h4[contains(text(),'Cart')]")
 WebElement Cart ;
 
 @FindBy(xpath="//button[@class='confirm btn btn-lg btn-info']")
@@ -62,6 +62,7 @@ WebElement Stock ;
 		
 		arr.add(Items.get(i).getText());
 		log.info("Storing the item name into an arraylist" +arr.get(i));
+		wait.until(ExpectedConditions.elementToBeClickable(item));
 		item.click();
 		log.info("Clicked on item and object is :"+item.toString());
 		wait.until(ExpectedConditions.elementToBeClickable(Qty));
@@ -148,6 +149,7 @@ WebElement Stock ;
 	
 	public ArrayList<String> getItemNamesFromCartList() throws InterruptedException{
 		ArrayList<String> arr1 = new ArrayList<String>();
+		wait.until(ExpectedConditions.elementToBeClickable(Cart));
 		Cart.click();
 		log.info("Clicked on Cart and object is :"+Cart);
 		JavascriptExecutor jse = (JavascriptExecutor)driver ;
@@ -156,7 +158,7 @@ WebElement Stock ;
 		List<WebElement> ItemNames = driver.findElements(By.xpath(".//h5[@class='card-title itemname']"));
 		for( int i=100;i<ItemNames.size();i++){
 			arr1.add(ItemNames.get(i).getText());
-			log.info("Fetching the item name and storing it in an array"+arr1.get(i));
+			log.info("Fetching the item name and storing it in an array");
 		}
 		return arr1 ;
 	}

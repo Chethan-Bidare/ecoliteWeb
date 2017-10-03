@@ -41,9 +41,9 @@ public class TC_002_VerifyCustomerNameInCartPage extends TestBase {
 		CartPage cp = new CartPage();
 		String customerName = cp.getCustNameFromCartPage();
 		try {
-			CustomerName.toUpperCase();
-			customerName.toUpperCase();
-			Assert.assertEquals(customerName, CustomerName);
+			String CustomerNameEntered = CustomerName.toUpperCase();
+			String CustomerNameFoundInCartPage = customerName.toUpperCase();
+			Assert.assertEquals(CustomerNameFoundInCartPage, CustomerNameEntered);
 			log.info("===== Test VerifyCustomerNameInCartPage Finished =======");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
