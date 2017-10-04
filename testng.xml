@@ -10,6 +10,8 @@
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage"/>
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage"/>
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

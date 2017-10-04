@@ -47,6 +47,9 @@ WebElement CustomerName ;
 @FindBy(xpath="//span[@class='grey']")
 WebElement Stock ;
 
+@FindBy(xpath=".//*[@id='count']")
+WebElement ItemCount ;
+
   public CartPage(){
 	PageFactory.initElements(driver, this);
 }
@@ -74,9 +77,9 @@ WebElement Stock ;
 		Thread.sleep(3000);
 		AddQtyBtn.click();
 		log.info("Clicked on Add button and the object is :"+AddQtyBtn);
-		wait.until(ExpectedConditions.elementToBeClickable(Ok_Btn));
-		Ok_Btn.click();
-		log.info("Clicked on OK button from popup and the object is :"+Ok_Btn);
+		//wait.until(ExpectedConditions.elementToBeClickable(Ok_Btn));
+		//Ok_Btn.click();
+		//log.info("Clicked on OK button from popup and the object is :"+Ok_Btn);
 		
 	}
 	return arr ;
@@ -105,9 +108,9 @@ WebElement Stock ;
 		Thread.sleep(3000);
 		AddQtyBtn.click();
 		log.info("Clicked on Add button and the object is :"+AddQtyBtn);
-		wait.until(ExpectedConditions.elementToBeClickable(Ok_Btn));
-		Ok_Btn.click();
-		log.info("Clicked on OK button from popup and the object is :"+Ok_Btn);
+		//wait.until(ExpectedConditions.elementToBeClickable(Ok_Btn));
+		//Ok_Btn.click();
+		//log.info("Clicked on OK button from popup and the object is :"+Ok_Btn);
 		
 		
 	}
@@ -130,19 +133,21 @@ WebElement Stock ;
 	
 	
 	public void deleteItemfromCart() throws InterruptedException{
-		Cart.click();
-		log.info("Clicked on Cart and object is :"+Cart);
-		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(".//span[@class='card-title delicon']")));
+		
+		
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(".//i[@class='fa fa-trash']")));
 		JavascriptExecutor jse = (JavascriptExecutor) driver ;
 		jse.executeScript("window.scrollBy(0,-550)","");
-		List<WebElement> Delete = driver.findElements(By.xpath(".//span[@class='card-title delicon']"));
+		List<WebElement> Delete = driver.findElements(By.xpath(".//i[@class='fa fa-trash']"));
 		for(WebElement we : Delete){
+			Thread.sleep(3000);
 			we.click();
 			log.info("Clicked on delete icon for the item to delete and object is "+we);
 			wait.until(ExpectedConditions.elementToBeClickable(DeleteCart));
+			Thread.sleep(3000);
 			DeleteCart.click();
 			log.info("Deleting the item from the cart and the object is :"+DeleteCart);
-			Thread.sleep(4000);
+			Thread.sleep(3000);
 		}
 		
 	}
@@ -187,9 +192,37 @@ WebElement Stock ;
 		return stock ;
 	}
 	
+	public int getItemCountFromCart() throws InterruptedException{
+		wait.until(ExpectedConditions.elementToBeClickable(Cart));
+		String ItemCount = this.ItemCount.getText();
+		int ItemCountInCartPage = Integer.parseInt(ItemCount);
+		return ItemCountInCartPage ;
+	}
 	
+	public void ClickOnCartButton() throws InterruptedException{
+		JavascriptExecutor jse = (JavascriptExecutor)driver ;
+		jse.executeScript("window.scrollBy(0,550)", "");
+		Thread.sleep(3000);
+		//wait.until(ExpectedConditions.elementToBeSelected(Cart));
+		Cart.click();
+		log.info("Clicked on Cart and object is :"+Cart);
+	}
 	
-	
+	public float getItemPriceFromSelectedBatch() throws InterruptedException{
+		Thread.sleep(3000);
+	List<WebElement> Batchlist = driver.findElements(By.xpath(".//*[@id='table']/tr"));	
+	System.out.println(Batchlist.size());
+		for(int i=1; i<=Batchlist.size(); i++){
+			if(driver.findElement(By.xpath(".//*[@id='inlineRadio"+i+"']")).isSelected()==true){
+				String Batchprice = driver.findElement(By.xpath(".//*[@id='table']/tr[1]/td[4]/div")).getText();
+				//Batchprice = Batchprice.substring(1);
+				float ItemBatchrate = Float.parseFloat(Batchprice);
+				return ItemBatchrate ;
+			}
+		}
+		return 0;
+		
+	}
 	
 	
 	

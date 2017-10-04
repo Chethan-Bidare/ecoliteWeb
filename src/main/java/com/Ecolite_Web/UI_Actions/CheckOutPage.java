@@ -1,6 +1,7 @@
 package com.Ecolite_Web.UI_Actions;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -87,6 +88,15 @@ public class CheckOutPage extends TestBase{
 	
 	public void NewSaleInSuccessPage(){
 		NewSaleBtn.click();
+	}
+	
+	public float AmountPaid(){
+		WebElement AmtPaid = driver.findElement(By.xpath("(//*[ @class='col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right details-value' ])[5]"));
+		String amt = AmtPaid.getText();
+		//amt = amt.substring(1);
+		float AmountPaid = Float.parseFloat(amt);
+		return AmountPaid ;
+		
 	}
 	
 }
