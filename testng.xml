@@ -12,6 +12,8 @@
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale"/>
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage"/>
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
