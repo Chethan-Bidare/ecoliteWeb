@@ -99,4 +99,20 @@ public class CheckOutPage extends TestBase{
 		
 	}
 	
+	public int getItemCountInCheckOutPage(){
+		WebElement AmtPaid = driver.findElement(By.xpath("(//*[ @class='col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right details-value' ])[1]"));
+		String itmcnt = AmtPaid.getText();
+		//amt = amt.substring(1);
+		int ItemCount = Integer.parseInt(itmcnt);
+		return ItemCount ;
+	}
+	
+	public double getDiscountValueInCheckOutPage(){
+		WebElement Disc = driver.findElement(By.xpath("(//*[ @class='col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right details-value' ])[4]"));
+		String disc = Disc.getText();
+		//amt = amt.substring(1);
+		double Discount = Integer.parseInt(disc);
+		return Discount ;
+	}
+	
 }

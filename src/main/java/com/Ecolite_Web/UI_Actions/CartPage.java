@@ -1,6 +1,7 @@
 package com.Ecolite_Web.UI_Actions;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -50,38 +51,48 @@ WebElement Stock ;
 @FindBy(xpath=".//*[@id='count']")
 WebElement ItemCount ;
 
+@FindBy(xpath="//*[@class='col-lg-3 col-md-3 col-sm-12 col-xs-12 rate']")
+WebElement ItemRate ;
+
   public CartPage(){
 	PageFactory.initElements(driver, this);
 }
 
 
   public ArrayList<String> Select_5_ItemsAndAddQty() throws InterruptedException{
-	  
+	float rate = 0 ;
 	List<WebElement> Items = driver.findElements(By.xpath(".//h5[@class='card-title itemname']"));
 	log.info("Fetching all the elements of items");
 	ArrayList<String> arr = new ArrayList<String>();
 	for(int i=0;i<5;i++){
+		float itemrate;
 		WebElement item = Items.get(i) ;
 		
 		arr.add(Items.get(i).getText());
 		log.info("Storing the item name into an arraylist" +arr.get(i));
+		Thread.sleep(3000);
 		wait.until(ExpectedConditions.elementToBeClickable(item));
 		item.click();
 		log.info("Clicked on item and object is :"+item.toString());
+		itemrate = getItemPriceFromSelectedBatch();
+		itemrate = itemrate * 5 ;
+		System.out.println(itemrate);
 		wait.until(ExpectedConditions.elementToBeClickable(Qty));
 		Qty.clear();
 		log.info("Clearing the Qty field and the object is :"+Qty);
 		Qty.sendKeys("5");
 		log.info("Qty 5 is entered");
-		wait.until(ExpectedConditions.elementToBeClickable(AddQtyBtn));
-		Thread.sleep(3000);
-		AddQtyBtn.click();
-		log.info("Clicked on Add button and the object is :"+AddQtyBtn);
-		//wait.until(ExpectedConditions.elementToBeClickable(Ok_Btn));
-		//Ok_Btn.click();
-		//log.info("Clicked on OK button from popup and the object is :"+Ok_Btn);
+		rate+= itemrate ;
+		System.out.println(rate); 
+		Thread.sleep(4000);
+		wait.until(ExpectedConditions.elementToBeClickable(AddQtyBtn)); 
+		AddQtyBtn.click(); 
+		log.info("Clicked on Add button and the object is :"+AddQtyBtn); 
+		
 		
 	}
+	String TotalItemRate = String.valueOf(rate);
+	arr.add(TotalItemRate);
 	return arr ;
   }
 	
@@ -168,9 +179,10 @@ WebElement ItemCount ;
 		return arr1 ;
 	}
 	
-	public void Proceed(){
+	public void Proceed() throws InterruptedException{
 		JavascriptExecutor jse = (JavascriptExecutor)driver ;
 		jse.executeScript("window.scrollBy(0,550)", "");
+		Thread.sleep(3000);
 		wait.until(ExpectedConditions.elementToBeClickable(ProceedBtn));
 		ProceedBtn.click();
 		log.info("Clicked on Proceed button and the object is "+ProceedBtn);
@@ -211,7 +223,6 @@ WebElement ItemCount ;
 	public float getItemPriceFromSelectedBatch() throws InterruptedException{
 		Thread.sleep(3000);
 	List<WebElement> Batchlist = driver.findElements(By.xpath(".//*[@id='table']/tr"));	
-	System.out.println(Batchlist.size());
 		for(int i=1; i<=Batchlist.size(); i++){
 			if(driver.findElement(By.xpath(".//*[@id='inlineRadio"+i+"']")).isSelected()==true){
 				String Batchprice = driver.findElement(By.xpath(".//*[@id='table']/tr[1]/td[4]/div")).getText();
@@ -224,7 +235,27 @@ WebElement ItemCount ;
 		
 	}
 	
+	public double getHighestMrpOfBatches() throws InterruptedException{
+		Thread.sleep(3000);
+		List<WebElement> Batchlist = driver.findElements(By.xpath(".//*[@id='table']/tr"));	
+		ArrayList<Double> arr = new ArrayList<Double>();
+		for(int i=1; i<=Batchlist.size(); i++){
+			String temp = driver.findElement(By.xpath(".//*[@id='table']/tr["+i+"]/td[4]/div")).getText();
+			Double value = Double.parseDouble(temp);
+			arr.add(value);
+		}
+		
+		return Collections.max(arr);
+		
+	}
 	
+	
+	public double getMRPDisplayedforItems() throws InterruptedException{
+		Thread.sleep(3000);
+		List<WebElement> itemrate = driver.findElements(By.xpath("//*[@class='col-lg-3 col-md-3 col-sm-12 col-xs-12 rate']"));
+		double rate = Double.parseDouble(itemrate.get(0).getText());
+		return rate ;
+	}
 	
 	
 	
