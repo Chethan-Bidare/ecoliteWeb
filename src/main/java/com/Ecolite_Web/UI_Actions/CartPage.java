@@ -165,6 +165,7 @@ WebElement ItemRate ;
 	
 	public ArrayList<String> getItemNamesFromCartList() throws InterruptedException{
 		ArrayList<String> arr1 = new ArrayList<String>();
+		Thread.sleep(3000);
 		wait.until(ExpectedConditions.elementToBeClickable(Cart));
 		Cart.click();
 		log.info("Clicked on Cart and object is :"+Cart);
