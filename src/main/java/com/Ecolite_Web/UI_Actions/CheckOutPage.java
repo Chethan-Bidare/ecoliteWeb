@@ -67,8 +67,8 @@ public class CheckOutPage extends TestBase{
 		try{
 			JavascriptExecutor jse = (JavascriptExecutor)driver ;
 			jse.executeScript("window.scrollBy(0,-550)", "");
-			customername.sendKeys("Chethan");
-			return customername.getText().toString();
+			//customername.sendKeys("Chethan");
+			return customername.getAttribute("value");
 		}
 		catch(NullPointerException ne){
 			return " " ;
@@ -168,6 +168,8 @@ public class CheckOutPage extends TestBase{
 		String PaymentType = PayMode.getText();
 		return PaymentType ;
 	}
+	
+
 
 	
 }

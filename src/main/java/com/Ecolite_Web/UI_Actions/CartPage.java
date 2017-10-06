@@ -1,6 +1,7 @@
 package com.Ecolite_Web.UI_Actions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -183,9 +184,10 @@ WebElement ItemRate ;
 	public void Proceed() throws InterruptedException{
 		JavascriptExecutor jse = (JavascriptExecutor)driver ;
 		jse.executeScript("window.scrollBy(0,550)", "");
-		Thread.sleep(4000);
+		Thread.sleep(6000);
 		wait.until(ExpectedConditions.elementToBeClickable(ProceedBtn));
 		ProceedBtn.click();
+		Thread.sleep(3000);
 		log.info("Clicked on Proceed button and the object is "+ProceedBtn);
 	}
 	
@@ -256,6 +258,33 @@ WebElement ItemRate ;
 		List<WebElement> itemrate = driver.findElements(By.xpath("//*[@class='col-lg-3 col-md-3 col-sm-12 col-xs-12 rate']"));
 		double rate = Double.parseDouble(itemrate.get(0).getText());
 		return rate ;
+	}
+	
+	
+	public List<Double> getDisplayedStockfor5Items(){
+		List<WebElement> stock = driver.findElements(By.xpath("//span[@class='grey']"));
+		List<Double> totalstock = new ArrayList<Double>();
+		for(int i=1; i<=5; i++){
+			String stk = stock.get(i).getText();
+			stk = stk.substring(1);
+			double stck = Double.parseDouble(stk);
+			totalstock.add(stck);
+		}
+		return totalstock ;
+	}
+	
+	public void getCountOfAllBatchesStockForAnItem(){
+		List<Integer> Stock = new ArrayList<Integer>();
+		List<WebElement> BatchTable = driver.findElements(By.xpath(".//*[@id='table']/tr"));
+		for(int i=1; i<=BatchTable.size();i++){
+			String temp = driver.findElement(By.xpath(".//*[@id='table']/tr["+i+"]/td[2]/div")).getText(); 
+			temp = temp.substring(7);
+			int tempStk = Integer.parseInt(temp);
+			int SumStk+ = tempStk ;
+			
+		}
+		
+		
 	}
 	
 	

@@ -45,6 +45,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyCustomerNameInCar
 		cp.Proceed();
 		CheckOutPage checkoutpage = new CheckOutPage();
 		String customerName = checkoutpage.getCustomerName();
+		System.out.println("Cust name :"+customerName);
 		try {
 			String CustomerNameEntered = CustomerName.toUpperCase();
 			String CustomerNameFound = customerName.toUpperCase();

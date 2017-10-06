@@ -2,20 +2,41 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32585" started-at="2017-10-06T09:28:54Z" finished-at="2017-10-06T09:29:27Z">
+  <suite name="Default suite" duration-ms="39619" started-at="2017-10-06T11:27:42Z" finished-at="2017-10-06T11:28:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32585" started-at="2017-10-06T09:28:54Z" finished-at="2017-10-06T09:29:27Z">
-      <class name="com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card@4566e5bd]" name="Setup" is-config="true" duration-ms="5876" started-at="2017-10-06T14:58:54Z" finished-at="2017-10-06T14:59:00Z">
+    <test name="Default test" duration-ms="39619" started-at="2017-10-06T11:27:42Z" finished-at="2017-10-06T11:28:21Z">
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@25bbe1b6]" name="Setup" is-config="true" duration-ms="5744" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="VerifyPaymentMode_Cash()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card@4566e5bd]" name="VerifyPaymentMode_Cash" duration-ms="26674" started-at="2017-10-06T14:59:00Z" finished-at="2017-10-06T14:59:27Z">
+        <test-method status="PASS" signature="VerifyCustomerNameInCartPag(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@25bbe1b6]" name="VerifyCustomerNameInCartPag" duration-ms="31064" started-at="2017-10-06T16:57:48Z" data-provider="TC_002_VerifyCustomerName" finished-at="2017-10-06T16:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8147519664]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[000999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VEENA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyPaymentMode_Cash -->
-      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card -->
+        </test-method> <!-- VerifyCustomerNameInCartPag -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@25bbe1b6]" name="closeBrowser" is-config="true" duration-ms="2363" started-at="2017-10-06T16:58:19Z" finished-at="2017-10-06T16:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
