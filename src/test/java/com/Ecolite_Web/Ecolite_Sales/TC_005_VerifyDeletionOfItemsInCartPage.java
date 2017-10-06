@@ -1,13 +1,10 @@
 package com.Ecolite_Web.Ecolite_Sales;
-
 import java.io.IOException;
-
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.Ecolite_Web.TestBase.TestBase;
 import com.Ecolite_Web.UI_Actions.CartPage;
 import com.Ecolite_Web.UI_Actions.Dashboard;
