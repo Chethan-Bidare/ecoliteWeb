@@ -40,9 +40,12 @@ public class TC_006_VerifyTotalAmtWithItemPrice extends TestBase{
 		//cp.Add_Qty("5");
 		cp.Proceed();
 		//int TotalItemPrice = ItemPrice * 5 ;
-		CheckOutPage checkoutpage = new CheckOutPage();
-		checkoutpage.ConfirmSale();
-		int AmountPaid = (int) checkoutpage.AmountPaid();
+		CheckOutPage checkout = new CheckOutPage();
+		checkout.CustomerDetails("Chethan", "Bengaluru");
+		checkout.ProfessionalDetails("doctor");
+		checkout.HomeDelivery();
+		checkout.ConfirmSale();
+		int AmountPaid = (int) checkout.AmountPaid();
 		try {
 			Assert.assertEquals(AmountPaid, TotalItemPrice);
 			log.info("===== TC006 Finished=====");

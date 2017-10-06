@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.Ecolite_Web.Listeners.Listeners"/>
-  </listeners>
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice">
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="VerifyTotalAmtinCheckOutPage"/>
           <include name="Setup"/>
+          <include name="VerifyTotalAmount"/>
         </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice -->
-      <class name="com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount">
-        <methods>
-          <include name="VerifyItemCount"/>
-          <include name="Setup"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount -->
-      <class name="com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="CheckItemsAddedToCart"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart -->
-      <class name="com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage">
-        <methods>
-          <include name="VerifyCustomerNameInCartPag" invocation-numbers="0"/>
-          <include name="Setup"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

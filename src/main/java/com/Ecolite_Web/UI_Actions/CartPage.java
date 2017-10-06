@@ -70,7 +70,7 @@ WebElement ItemRate ;
 		
 		arr.add(Items.get(i).getText());
 		log.info("Storing the item name into an arraylist" +arr.get(i));
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		wait.until(ExpectedConditions.elementToBeClickable(item));
 		item.click();
 		log.info("Clicked on item and object is :"+item.toString());

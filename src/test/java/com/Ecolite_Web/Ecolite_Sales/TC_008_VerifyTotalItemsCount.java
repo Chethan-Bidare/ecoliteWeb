@@ -36,9 +36,12 @@ public class TC_008_VerifyTotalItemsCount extends TestBase {
 		Thread.sleep(3000);
 		int ItemCountinCartPage = cp.getItemCountFromCart();
 		cp.Proceed();
-		CheckOutPage cop = new CheckOutPage();
-		cop.ConfirmSale();
-		int ItemCountinCheckOutPage = cop.getItemCountInCheckOutPage();
+		CheckOutPage checkout = new CheckOutPage();
+		checkout.CustomerDetails("Chethan", "Bengaluru");
+		checkout.ProfessionalDetails("doctor");
+		checkout.HomeDelivery();
+		checkout.ConfirmSale();
+		int ItemCountinCheckOutPage = checkout.getItemCountInCheckOutPage();
 		try {
 			Assert.assertEquals(ItemCountinCheckOutPage, ItemCountinCartPage);
 			log.info(" ===== TC008 Finished =====");

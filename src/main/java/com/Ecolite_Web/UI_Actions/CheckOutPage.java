@@ -37,6 +37,9 @@ public class CheckOutPage extends TestBase{
 	@FindBy(id="inlineRadio2")
 	WebElement Card ;
 	
+	@FindBy(id="refncenum")
+	WebElement ReferenceNum ;
+	
 	@FindBy(id="inlineRadio1")
 	WebElement Cash ;
 	
@@ -74,27 +77,38 @@ public class CheckOutPage extends TestBase{
 	}
 	
 	public void ConfirmSale(){
+		JavascriptExecutor jse = (JavascriptExecutor)driver ;
+		jse.executeScript("window.scrollBy(0,550)", "");
+		ConfirmBtn.click();
+	}
+	
+	public void CustomerDetails(String CustomerName,String City){
 		wait.until(ExpectedConditions.elementToBeClickable(customername));
 		JavascriptExecutor jse = (JavascriptExecutor)driver ;
 		jse.executeScript("window.scrollBy(0,-550)", "");
+		//customername.getText();
 		customername.click();
-		customername.sendKeys("Chethan");
-		city.sendKeys("Bengaluru");
-		professionalname.sendKeys("bidare");
+		customername.sendKeys(CustomerName);
+		city.sendKeys(City);
+	}
+	
+	public void ProfessionalDetails(String ProfName){
+		professionalname.sendKeys(ProfName);
+	}
+	
+	public void HomeDelivery(){
 		HomeDeliveryCheckbox.click();
-		jse.executeScript("window.scrollBy(0,550)", "");
-		ConfirmBtn.click();
 	}
 	
 	public void NewSaleInSuccessPage(){
 		NewSaleBtn.click();
 	}
 	
-	public float AmountPaid(){
+	public double AmountPaid(){
 		WebElement AmtPaid = driver.findElement(By.xpath("(//*[ @class='col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right details-value' ])[5]"));
 		String amt = AmtPaid.getText();
 		//amt = amt.substring(1);
-		float AmountPaid = Float.parseFloat(amt);
+		double AmountPaid = Double.parseDouble(amt);
 		return AmountPaid ;
 		
 	}
@@ -111,8 +125,40 @@ public class CheckOutPage extends TestBase{
 		WebElement Disc = driver.findElement(By.xpath("(//*[ @class='col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right details-value' ])[4]"));
 		String disc = Disc.getText();
 		//amt = amt.substring(1);
-		double Discount = Integer.parseInt(disc);
+		double Discount = Double.parseDouble((disc));
 		return Discount ;
 	}
+	
+	
+	public double getInvoiceValueInCheckOutPage(){
+		WebElement Inv = driver.findElement(By.xpath("(//*[ @class='col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right details-value' ])[2]"));
+		String Invval = Inv.getText();
+		//amt = amt.substring(1);
+		double InvoiceValue = Double.parseDouble((Invval));
+		return InvoiceValue ;
+		
+	}
+	
+	public double getTaxValueInCheckOutPage(){
+		WebElement Tax = driver.findElement(By.xpath("(//*[ @class='col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right details-value' ])[3]"));
+		String Taxval = Tax.getText();
+		//amt = amt.substring(1);
+		double TaxValue =Double.parseDouble((Taxval));
+		return TaxValue ;
+		
+	}
+	
+	public void SelectCardPayment(){
+		Card.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ReferenceNum));
+		ReferenceNum.sendKeys("321321");
+	}
+	
+	public String getPaymentModeInCheckOutPage(){
+		WebElement PayMode = driver.findElement(By.xpath("(//*[ @class='col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right details-value' ])[6]"));
+		String PaymentType = PayMode.getText();
+		return PaymentType ;
+	}
+
 	
 }
