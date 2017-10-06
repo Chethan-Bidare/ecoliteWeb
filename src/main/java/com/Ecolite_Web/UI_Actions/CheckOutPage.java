@@ -34,7 +34,7 @@ public class CheckOutPage extends TestBase{
 	@FindBy(id="address2")
 	WebElement address2 ;
 	
-	@FindBy(id="inlineRadio2")
+	@FindBy(xpath="//input[@id='inlineRadio2' and @name='radioInline1']")
 	WebElement Card ;
 	
 	@FindBy(id="refncenum")
@@ -87,8 +87,9 @@ public class CheckOutPage extends TestBase{
 		JavascriptExecutor jse = (JavascriptExecutor)driver ;
 		jse.executeScript("window.scrollBy(0,-550)", "");
 		//customername.getText();
-		customername.click();
+		customername.clear();
 		customername.sendKeys(CustomerName);
+		city.clear();
 		city.sendKeys(City);
 	}
 	
@@ -152,6 +153,14 @@ public class CheckOutPage extends TestBase{
 		Card.click();
 		wait.until(ExpectedConditions.elementToBeClickable(ReferenceNum));
 		ReferenceNum.sendKeys("321321");
+	}
+	
+	public void SelectCashPayment(){
+		if (Cash.isSelected()== true){
+			System.out.println("By default cash is selected");
+		}
+		else
+			Cash.click();
 	}
 	
 	public String getPaymentModeInCheckOutPage(){

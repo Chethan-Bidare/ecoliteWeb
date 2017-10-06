@@ -183,7 +183,7 @@ WebElement ItemRate ;
 	public void Proceed() throws InterruptedException{
 		JavascriptExecutor jse = (JavascriptExecutor)driver ;
 		jse.executeScript("window.scrollBy(0,550)", "");
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		wait.until(ExpectedConditions.elementToBeClickable(ProceedBtn));
 		ProceedBtn.click();
 		log.info("Clicked on Proceed button and the object is "+ProceedBtn);

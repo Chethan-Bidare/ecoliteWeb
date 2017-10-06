@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -57,4 +58,11 @@ public class TC_009_VerifyTotalAmountInCheckOutPage extends TestBase {
 			log.info(" ===== TC009 Skipped =====");
 		}
 	}
+	
+	@AfterClass
+	public void closeBrowser(){
+		CloseBrowser();
+		
+	}
+	
 }

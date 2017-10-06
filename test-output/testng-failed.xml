@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage">
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card">
         <methods>
+          <include name="VerifyPaymentMode_Cash"/>
           <include name="Setup"/>
-          <include name="VerifyTotalAmount"/>
         </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
