@@ -5,8 +5,7 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -21,7 +20,7 @@ public class TC_001_VerifyItemsAddedIsPresentInCart extends TestBase{
 	
 	
 	
-	@BeforeClass
+	@BeforeTest
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -54,10 +53,6 @@ public class TC_001_VerifyItemsAddedIsPresentInCart extends TestBase{
 		log.info("===== TC_001_VerifyItemsAddedIsPresentInCart Finished =====");
 	}
 	
-	@AfterClass
-	public void closeBrowser(){
-		CloseBrowser();
-		
-	}
+	
 	
 }

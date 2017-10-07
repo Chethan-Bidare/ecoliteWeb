@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.Ecolite_Web.TestBase.TestBase;
@@ -18,7 +18,7 @@ public class TC_013_VerifyAddNewBatch extends TestBase{
 	
 	public static Logger log = Logger.getLogger(TC_013_VerifyAddNewBatch.class.getName());
 
-	@BeforeClass
+	@BeforeTest
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");

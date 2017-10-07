@@ -2,8 +2,7 @@ package com.Ecolite_Web.Ecolite_Sales;
 import java.io.IOException;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.Ecolite_Web.TestBase.TestBase;
 import com.Ecolite_Web.UI_Actions.CartPage;
@@ -14,7 +13,7 @@ public class TC_005_VerifyDeletionOfItemsInCartPage extends TestBase {
 	
 	public static final Logger log = Logger.getLogger(TC_005_VerifyDeletionOfItemsInCartPage.class.getName());
 	
-	@BeforeClass
+	@BeforeTest
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -31,17 +30,12 @@ public class TC_005_VerifyDeletionOfItemsInCartPage extends TestBase {
 		cp.Add_Qty("5");
 		cp.ClickOnCartButton();
 		int ItemCountAfterAddingtoCart = cp.getItemCountFromCart();
+		System.out.println(ItemCountAfterAddingtoCart);
 		cp.deleteItemfromCart();
 		int ItemCountAfterDeletingCart = cp.getItemCountFromCart();
 		Assert.assertEquals(ItemCountAfterDeletingCart, 0);
 		
 	}
 	
-
-	@AfterClass
-	public void closeBrowser(){
-		CloseBrowser();
-		
-	}
 	
 }

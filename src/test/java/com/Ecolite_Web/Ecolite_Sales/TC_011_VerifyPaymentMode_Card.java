@@ -4,8 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.Ecolite_Web.TestBase.TestBase;
@@ -18,7 +17,7 @@ public class TC_011_VerifyPaymentMode_Card extends TestBase{
 
 public static Logger log = Logger.getLogger(TC_011_VerifyPaymentMode_Card.class.getName());
 	
-	@BeforeClass
+	@BeforeTest
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -52,9 +51,5 @@ public static Logger log = Logger.getLogger(TC_011_VerifyPaymentMode_Card.class.
 		}
 	}
 	
-	@AfterClass
-	public void closeBrowser(){
-		CloseBrowser();
-		
-	}
+	
 }

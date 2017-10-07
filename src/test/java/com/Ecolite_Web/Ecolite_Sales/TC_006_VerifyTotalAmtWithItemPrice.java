@@ -4,8 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.Ecolite_Web.TestBase.TestBase;
@@ -18,7 +17,7 @@ public class TC_006_VerifyTotalAmtWithItemPrice extends TestBase{
 	
 	public static final Logger log = Logger.getLogger(TC_006_VerifyTotalAmtWithItemPrice.class.getName());
 	
-	@BeforeClass
+	@BeforeTest
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -56,11 +55,5 @@ public class TC_006_VerifyTotalAmtWithItemPrice extends TestBase{
 		}
 	}
 	
-	
-	@AfterClass
-	public void closeBrowser(){
-		CloseBrowser();
-		
-	}
 
 }

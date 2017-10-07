@@ -3,6 +3,7 @@ package com.Ecolite_Web.TestBase;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
@@ -22,8 +23,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import com.Ecolite_Web.ExcelReader.ExcelReader;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 
 public class TestBase {
@@ -34,6 +42,9 @@ public class TestBase {
 	public static WebDriver driver ;
 	public Properties OR = new Properties();
 	public String CheckMst ;
+	public static ExtentReports extent ;
+	public static ExtentTest test ;
+	public static ITestResult Result; 
 	//public WebDriverWait wait = new WebDriverWait(driver, 60);
 	@FindBy(id="datepicker-autoclose")
 	WebElement datefield ;
@@ -43,6 +54,12 @@ public class TestBase {
 		FileInputStream fis = new FileInputStream(path);
 		OR.load(fis);
 		
+	}
+	
+	static{
+		Calendar calendar = Calendar.getInstance();
+		SimpleDateFormat formater = new SimpleDateFormat("YYYY_MM_DD_HH_MM_SS");
+		extent = new ExtentReports(System.getProperty("user.dir")+"//src//main//java//com//Ecolite_Web//Reports//TestReport"+formater.format(calendar.getTime())+".html",false);
 	}
 	
 	public String[][] ReadExcel(String SheetName,String ExcelName){
@@ -180,9 +197,38 @@ public String SelectOptionfromAutoCompleteSearch(String name){
 	}
 	
 	
+	public void getResult(ITestResult Result){
+		if(Result.getStatus()==ITestResult.SUCCESS){
+			test.log(LogStatus.PASS, Result.getName()+"Test is Passed");
+		}
+		else if(Result.getStatus()==ITestResult.FAILURE){
+			test.log(LogStatus.FAIL, Result.getName()+"Test is Failed");
+		}
+		else if(Result.getStatus()==ITestResult.SKIP){
+			test.log(LogStatus.SKIP, Result.getName()+"Test is skipped");
+		}
+		else if(Result.getStatus()==ITestResult.STARTED){
+			test.log(LogStatus.INFO, Result.getName()+"Test is Started");
+		}
+		
+	}
 	
+	@BeforeMethod()
+	public void beforeMethod(Method Result){
+		test = extent.startTest(Result.getName());
+		test.log(LogStatus.INFO, Result.getName()+"Test Started");
+	}
 	
-	
+	@AfterMethod()
+	public void getMethod(ITestResult Result){
+		getResult(Result);
+	}
+	@AfterClass(alwaysRun=true)
+	public void endTest(){
+		driver.close();
+		extent.endTest(test);
+		extent.flush();
+	}
 	
 	
 	
