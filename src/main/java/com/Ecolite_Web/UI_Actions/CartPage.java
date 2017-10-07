@@ -1,7 +1,6 @@
 package com.Ecolite_Web.UI_Actions;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -104,9 +103,11 @@ WebElement ItemRate ;
 	}
 	
 	public void Select_Item_By_Name(String ItemName) throws InterruptedException{
+		Thread.sleep(3000);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='card-title itemname' and contains(text(),'"+ItemName+"')]")));
 		driver.findElement(By.xpath("//*[@class='card-title itemname' and contains(text(),'"+ItemName+"')]")).click();
 		log.info("Clicked on the item and the object is :"+ItemName);
+		
 		
 	}
 	
@@ -261,30 +262,32 @@ WebElement ItemRate ;
 	}
 	
 	
-	public List<Double> getDisplayedStockfor5Items(){
+	public int getDisplayedStockforAnItem(String itemNum){
 		List<WebElement> stock = driver.findElements(By.xpath("//span[@class='grey']"));
-		List<Double> totalstock = new ArrayList<Double>();
-		for(int i=1; i<=5; i++){
-			String stk = stock.get(i).getText();
+		int itemNo = Integer.parseInt(itemNum); 
+		
+			String stk = stock.get(itemNo).getText();
 			stk = stk.substring(1);
-			double stck = Double.parseDouble(stk);
-			totalstock.add(stck);
-		}
-		return totalstock ;
+			int Itemstock = Integer.parseInt(stk);
+		return Itemstock ;
 	}
 	
-	public void getCountOfAllBatchesStockForAnItem(){
-		List<Integer> Stock = new ArrayList<Integer>();
+	public int getCountOfAllBatchesStockForAnItem() throws InterruptedException{
+		int ItemStock = 0 ;
+		Thread.sleep(4000);
 		List<WebElement> BatchTable = driver.findElements(By.xpath(".//*[@id='table']/tr"));
+		log.info("Fetching the number of batches available :"+BatchTable.size());
 		for(int i=1; i<=BatchTable.size();i++){
 			String temp = driver.findElement(By.xpath(".//*[@id='table']/tr["+i+"]/td[2]/div")).getText(); 
 			temp = temp.substring(7);
 			int tempStk = Integer.parseInt(temp);
-			int SumStk+ = tempStk ;
+			System.out.println("stock of individual batch : "+tempStk);
+			ItemStock+= tempStk ;
+			
 			
 		}
-		
-		
+		log.info("Total Count of Stock available of all batches : "+ItemStock);
+		return ItemStock ;
 	}
 	
 	
