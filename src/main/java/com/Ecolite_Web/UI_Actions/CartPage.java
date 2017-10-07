@@ -290,9 +290,44 @@ WebElement ItemRate ;
 		return ItemStock ;
 	}
 	
-	
-	
-	
+@FindBy(xpath="//*[@class='text-center addbatch']")
+WebElement AddBatchLink ;
+
+@FindBy(id="batchno")
+WebElement BatchNo ;
+
+@FindBy(id="looseqty")
+WebElement looseqty ;
+
+@FindBy(id="mrp")
+WebElement mrp ;
+
+@FindBy(id="purchaserate")
+WebElement purchaserate ;
+
+@FindBy(xpath="//*[@class='btn btn-custom addnewbatchbtn']")
+WebElement AddBatchBtn ;
+
+@FindBy(id="datepicker-autoclose")
+WebElement datefield ;
+
+public String AddNewBatch(String year,String month,String date) throws InterruptedException{
+	Thread.sleep(4000);
+		AddBatchLink.click();
+		String BatchName=generateRandomData(5);
+		BatchNo.sendKeys(BatchName);
+		datefield.click();
+		driver.findElement(By.xpath("//*[@class='datepicker-switch']")).click();
+		driver.findElement(By.xpath("//*[@class='datepicker-months']//*[@class='datepicker-switch']")).click();
+		driver.findElement(By.xpath("//*[@class='year' and contains(text(),'"+year+"')]")).click();
+		driver.findElement(By.xpath("//*[@class='month' and contains(text(),'"+month+"')]")).click();
+		driver.findElement(By.xpath("//*[@class='day' and contains(text(),'"+date+"')]")).click();
+		looseqty.sendKeys("100");
+		mrp.sendKeys("100");
+		purchaserate.sendKeys("50");
+		AddBatchBtn.click();
+		return BatchName ;
+	}
 	
 	
 	
