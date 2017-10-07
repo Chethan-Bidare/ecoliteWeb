@@ -21,10 +21,13 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.FindBy;
+
 import com.Ecolite_Web.ExcelReader.ExcelReader;
 
 
 public class TestBase {
+
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	
@@ -32,7 +35,8 @@ public class TestBase {
 	public Properties OR = new Properties();
 	public String CheckMst ;
 	//public WebDriverWait wait = new WebDriverWait(driver, 60);
-	
+	@FindBy(id="datepicker-autoclose")
+	WebElement datefield ;
 	
 	public void LoadFromProperties() throws IOException{
 		File path= new File(System.getProperty("user.dir")+"//src//main//java//com//Ecolite_Web//Config//Config.properties");
@@ -161,8 +165,19 @@ public String SelectOptionfromAutoCompleteSearch(String name){
 		return CheckMst;
 	}
 	
+
+	public void SetCalendarDate(String year,String month,String date){
+		datefield.click();
+		driver.findElement(By.xpath("//*[@class='datepicker-switch']")).click();
+		driver.findElement(By.xpath("//*[@class='datepicker-months']//*[@class='datepicker-switch']")).click();
+		driver.findElement(By.xpath("//*[@class='year' and contains(text(),'"+year+"')]")).click();
+		driver.findElement(By.xpath("//*[@class='month' and contains(text(),'"+month+"')]")).click();
+		driver.findElement(By.xpath("//*[@class='day' and contains(text(),'"+date+"')]")).click();
+	}
 	
-	
+	public void RefreshPage(){
+		driver.navigate().refresh();
+	}
 	
 	
 	

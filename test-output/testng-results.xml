@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26423" started-at="2017-10-07T11:42:41Z" finished-at="2017-10-07T11:43:08Z">
+  <suite name="Default suite" duration-ms="57860" started-at="2017-10-07T15:51:28Z" finished-at="2017-10-07T15:52:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26423" started-at="2017-10-07T11:42:41Z" finished-at="2017-10-07T11:43:08Z">
+    <test name="Default test" duration-ms="57860" started-at="2017-10-07T15:51:28Z" finished-at="2017-10-07T15:52:26Z">
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@4566e5bd]" name="Setup" is-config="true" duration-ms="6018" started-at="2017-10-07T17:12:41Z" finished-at="2017-10-07T17:12:47Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@27c20538]" name="Setup" is-config="true" duration-ms="11620" started-at="2017-10-07T21:21:28Z" finished-at="2017-10-07T21:21:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="VerifyAddNewBatch()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@4566e5bd]" name="VerifyAddNewBatch" duration-ms="20386" started-at="2017-10-07T17:12:47Z" finished-at="2017-10-07T17:13:08Z">
+        <test-method status="PASS" signature="VerifyAddNewBatch()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@27c20538]" name="VerifyAddNewBatch" duration-ms="46184" started-at="2017-10-07T21:21:40Z" finished-at="2017-10-07T21:22:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAddNewBatch -->

@@ -54,6 +54,25 @@ WebElement ItemCount ;
 @FindBy(xpath="//*[@class='col-lg-3 col-md-3 col-sm-12 col-xs-12 rate']")
 WebElement ItemRate ;
 
+@FindBy(xpath="//*[@class='text-center addbatch']")
+WebElement AddBatchLink ;
+
+@FindBy(id="batchno")
+WebElement BatchNo ;
+
+@FindBy(id="looseqty")
+WebElement looseqty ;
+
+@FindBy(id="mrp")
+WebElement mrp ;
+
+@FindBy(id="purchaserate")
+WebElement purchaserate ;
+
+@FindBy(xpath="//*[@class='btn btn-custom addnewbatchbtn']")
+WebElement AddBatchBtn ;
+
+
   public CartPage(){
 	PageFactory.initElements(driver, this);
 }
@@ -290,43 +309,42 @@ WebElement ItemRate ;
 		return ItemStock ;
 	}
 	
-@FindBy(xpath="//*[@class='text-center addbatch']")
-WebElement AddBatchLink ;
 
-@FindBy(id="batchno")
-WebElement BatchNo ;
 
-@FindBy(id="looseqty")
-WebElement looseqty ;
 
-@FindBy(id="mrp")
-WebElement mrp ;
-
-@FindBy(id="purchaserate")
-WebElement purchaserate ;
-
-@FindBy(xpath="//*[@class='btn btn-custom addnewbatchbtn']")
-WebElement AddBatchBtn ;
-
-@FindBy(id="datepicker-autoclose")
-WebElement datefield ;
-
-public String AddNewBatch(String year,String month,String date) throws InterruptedException{
-	Thread.sleep(4000);
+	public String AddNewBatch(String year,String month,String date) throws InterruptedException{
+		Thread.sleep(4000);
 		AddBatchLink.click();
+		log.info("Clicked on Add Batch link and the object is :"+AddBatchLink);
 		String BatchName=generateRandomData(5);
 		BatchNo.sendKeys(BatchName);
-		datefield.click();
-		driver.findElement(By.xpath("//*[@class='datepicker-switch']")).click();
-		driver.findElement(By.xpath("//*[@class='datepicker-months']//*[@class='datepicker-switch']")).click();
-		driver.findElement(By.xpath("//*[@class='year' and contains(text(),'"+year+"')]")).click();
-		driver.findElement(By.xpath("//*[@class='month' and contains(text(),'"+month+"')]")).click();
-		driver.findElement(By.xpath("//*[@class='day' and contains(text(),'"+date+"')]")).click();
+		log.info("Entered Batch No and the object is :"+BatchName);
+		SetCalendarDate(year,month,date);
+		log.info("Entered Expiry date and the object is :"+BatchName);
 		looseqty.sendKeys("100");
+		log.info("Entered looseqty and the object is :"+looseqty);
 		mrp.sendKeys("100");
+		log.info("Entered MRP and the object is :"+mrp);
 		purchaserate.sendKeys("50");
+		log.info("Entered purchase rate and the object is :"+purchaserate);
 		AddBatchBtn.click();
+		log.info("Clicked on Add Batch button and the object is :"+AddBatchBtn);
+		log.info("Returning batch name created :"+BatchName);
 		return BatchName ;
+	}
+
+	public List<String> getBatchNamesFromBatchList(){
+		
+		List<String> BatchNames = new ArrayList<String>();
+		List<WebElement> Rows = driver.findElements(By.xpath(".//*[@id='table']/tr"));
+		for(int i=1; i<=Rows.size();i++){
+			String Batch = driver.findElement(By.xpath(".//*[@id='table']/tr["+i+"]/td[2]/b")).getText();
+			BatchNames.add(Batch);
+		}
+		
+		log.info("Returning the list of batches ");
+		return BatchNames ;
+		
 	}
 	
 	
