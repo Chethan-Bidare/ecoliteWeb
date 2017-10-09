@@ -30,13 +30,13 @@ public class Dashboard extends TestBase{
 	WebElement CustomerName ;
 	
 	@FindBy(id="btn-sale")
-	WebElement StartSale_Btn ;
+	WebElement Start_Btn ;
 	
 	@FindBy(id="item-search")
 	WebElement item_search ;
 	
-	/*@FindBy(id="")
-	WebElement SupplierName ;*/
+	@FindBy(id="inlineRadio2")
+	WebElement SaleReturnCheckbox ;
 	
 	public Dashboard(){
 		PageFactory.initElements(driver, this);
@@ -82,7 +82,7 @@ public class Dashboard extends TestBase{
 		this.CustomerName.sendKeys(CustomerName);
 		try{
 			WebElement AutoOptions = driver.findElement(By.id("ui-id-2"));
-			Thread.sleep(4000);
+			Thread.sleep(3000);
 			if(AutoOptions.isDisplayed()==true){
 				List<WebElement> CustNames = driver.findElements(By.tagName("li"));
 				for(WebElement we : CustNames){
@@ -91,7 +91,7 @@ public class Dashboard extends TestBase{
 					}
 				}
 			}
-			StartSale_Btn.click();
+			Start_Btn.click();
 			
 		}
 		catch(Exception e){
@@ -99,7 +99,25 @@ public class Dashboard extends TestBase{
 		}
 	}
 	
-	
+	public void StartSalesReturn(String CustomerName){
+		this.CustomerName.sendKeys(CustomerName);
+		try {
+			WebElement AutoOptions = driver.findElement(By.id("ui-id-2"));
+			Thread.sleep(3000);
+			if(AutoOptions.isDisplayed()==true){
+				List<WebElement> CustNames = driver.findElements(By.tagName("li"));
+				for(WebElement we : CustNames){
+					if(we.getText().equalsIgnoreCase(CustomerName)){
+						we.click();
+					}
+				}
+			}
+			SaleReturnCheckbox.click();
+			Start_Btn.click();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 	
 	
 	

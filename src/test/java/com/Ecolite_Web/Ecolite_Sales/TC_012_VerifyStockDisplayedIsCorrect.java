@@ -3,7 +3,7 @@ package com.Ecolite_Web.Ecolite_Sales;
 import java.io.IOException;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -16,7 +16,7 @@ public class TC_012_VerifyStockDisplayedIsCorrect extends TestBase{
 
 public static Logger log = Logger.getLogger(TC_012_VerifyStockDisplayedIsCorrect.class.getName());
 	
-	@BeforeTest
+	@BeforeClass
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -30,7 +30,7 @@ public static Logger log = Logger.getLogger(TC_012_VerifyStockDisplayedIsCorrect
 	
 	@Test(dataProvider="TestdataforStockCheck")
 	public void VerifyStockDisplayedIsCorrect(String itemname,String ItemNo) throws InterruptedException{
-		log.info(" ===== Started TC012 =====");
+		log.info(" ===== TC_012_VerifyStockDisplayedIsCorrect Started =====");
 		LoginPage lp = new LoginPage(driver);
 		lp.LoginIntoApplication(OR.getProperty("Mobile"),OR.getProperty("password"));
 		Dashboard db = new Dashboard();
@@ -41,11 +41,11 @@ public static Logger log = Logger.getLogger(TC_012_VerifyStockDisplayedIsCorrect
 		int StockDisplayedInBatchList = cp.getCountOfAllBatchesStockForAnItem();
 		try {
 			Assert.assertEquals( DisplayedStockofAnItem, StockDisplayedInBatchList);
-			log.info(" ===== TC012 Finished =====");
+			log.info(" ===== TC_012_VerifyStockDisplayedIsCorrect Finished =====");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			log.info(" ===== TC010 Skipped =====");
+			log.info(" ===== TC_012_VerifyStockDisplayedIsCorrect Skipped =====");
 		}
 		
 	}

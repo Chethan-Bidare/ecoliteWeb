@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.Ecolite_Web.TestBase.TestBase;
@@ -17,7 +17,7 @@ public class TC_009_VerifyTotalAmountInCheckOutPage extends TestBase {
 
 	public static final Logger log = Logger.getLogger(TC_009_VerifyTotalAmountInCheckOutPage.class.getName());
 	
-	@BeforeTest
+	@BeforeClass
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -25,7 +25,7 @@ public class TC_009_VerifyTotalAmountInCheckOutPage extends TestBase {
 	
 	@Test
 	public void VerifyTotalAmount() throws InterruptedException{
-		log.info(" ===== Started TC009 =====");
+		log.info(" ===== TC_009_VerifyTotalAmountInCheckOutPage Started =====");
 		LoginPage lp = new LoginPage(driver);
 		lp.LoginIntoApplication(OR.getProperty("Mobile"),OR.getProperty("password"));
 		Dashboard db = new Dashboard();
@@ -50,11 +50,11 @@ public class TC_009_VerifyTotalAmountInCheckOutPage extends TestBase {
 		int ExpectedTotalAmount = (int) TotalAmont ;
 		try {
 			Assert.assertEquals(ActualTotalAmount, ExpectedTotalAmount);
-			log.info(" ===== TC009 Finished =====");
+			log.info(" ===== TC_009_VerifyTotalAmountInCheckOutPage Finished =====");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			log.info(" ===== TC009 Skipped =====");
+			log.info(" ===== TC_009_VerifyTotalAmountInCheckOutPage Skipped =====");
 		}
 	}
 		

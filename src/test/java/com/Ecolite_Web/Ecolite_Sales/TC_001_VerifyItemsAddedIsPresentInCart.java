@@ -5,8 +5,7 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.Ecolite_Web.TestBase.TestBase;
@@ -18,18 +17,10 @@ public class TC_001_VerifyItemsAddedIsPresentInCart extends TestBase{
 
 	public static final Logger log = Logger.getLogger(TC_001_VerifyItemsAddedIsPresentInCart.class.getName());
 	
-	
-	
-	@BeforeTest
+	@BeforeClass
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
-	}
-	
-	@DataProvider(name="Details")
-	public String[][] getdata(){
-		String[][] result = ReadExcel("StartSale", "TestData.xlsx");
-		return result ;
 	}
 	
 	@Test

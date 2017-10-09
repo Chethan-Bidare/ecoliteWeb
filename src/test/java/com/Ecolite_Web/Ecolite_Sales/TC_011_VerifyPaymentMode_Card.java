@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.Ecolite_Web.TestBase.TestBase;
@@ -17,7 +17,7 @@ public class TC_011_VerifyPaymentMode_Card extends TestBase{
 
 public static Logger log = Logger.getLogger(TC_011_VerifyPaymentMode_Card.class.getName());
 	
-	@BeforeTest
+@BeforeClass
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -25,7 +25,7 @@ public static Logger log = Logger.getLogger(TC_011_VerifyPaymentMode_Card.class.
 	
 	@Test
 	public void VerifyPaymentMode_Card() throws InterruptedException{
-		log.info(" ===== Started TC011 =====");
+		log.info(" ===== TC_011_VerifyPaymentMode_Card Started =====");
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.LoginIntoApplication(OR.getProperty("Mobile"), OR.getProperty("password"));
 		Dashboard dashboard = new Dashboard();
@@ -43,11 +43,11 @@ public static Logger log = Logger.getLogger(TC_011_VerifyPaymentMode_Card.class.
 		String PaymentMode = checkoutpage.getPaymentModeInCheckOutPage();
 		try {
 			Assert.assertEquals(PaymentMode, "Card");
-			log.info(" ===== TC011 Finished =====");
+			log.info(" ===== TC_011_VerifyPaymentMode_Card Finished =====");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			log.info(" ===== TC011 Skipped =====");
+			log.info(" ===== TC_011_VerifyPaymentMode_Card Skipped =====");
 		}
 	}
 	

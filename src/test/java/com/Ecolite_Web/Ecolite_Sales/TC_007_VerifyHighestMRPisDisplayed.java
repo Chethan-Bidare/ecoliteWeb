@@ -4,9 +4,8 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.Ecolite_Web.TestBase.TestBase;
 import com.Ecolite_Web.UI_Actions.CartPage;
 import com.Ecolite_Web.UI_Actions.Dashboard;
@@ -16,7 +15,7 @@ public class TC_007_VerifyHighestMRPisDisplayed extends TestBase{
 
 public static final Logger log = Logger.getLogger(TC_007_VerifyHighestMRPisDisplayed.class.getName());
 	
-	@BeforeTest
+@BeforeClass
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -24,7 +23,7 @@ public static final Logger log = Logger.getLogger(TC_007_VerifyHighestMRPisDispl
 	
 	@Test
 	public void TC_007_verifyHighestMRPisDisplayed() throws InterruptedException{
-		log.info(" ===== Started TC007 =====");
+		log.info(" ===== TC_007_VerifyHighestMRPisDisplayed Started =====");
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.LoginIntoApplication(OR.getProperty("Mobile"), OR.getProperty("password"));
 		Dashboard db = new Dashboard();
@@ -35,11 +34,11 @@ public static final Logger log = Logger.getLogger(TC_007_VerifyHighestMRPisDispl
 		double ExpectedHighestMRP = cp.getHighestMrpOfBatches();
 		try {
 			Assert.assertEquals(DisplayedHighestMRP, ExpectedHighestMRP);
-			log.info(" ===== TC007 Finished =====");
+			log.info(" ===== TC_007_VerifyHighestMRPisDisplayed Finished =====");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			log.info(" ===== TC007 Skipped =====");
+			log.info(" ===== TC_007_VerifyHighestMRPisDisplayed Skipped =====");
 		}
 	}
 	

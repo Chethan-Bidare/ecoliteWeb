@@ -20,7 +20,7 @@ public class CartPage extends TestBase{
 public static final Logger log = Logger.getLogger(CartPage.class.getName());
 WebDriverWait wait = new WebDriverWait(driver, 30);
 
-
+//Sales --- WebElements
 @FindBy(id="qty")
 WebElement Qty ;
 
@@ -71,6 +71,12 @@ WebElement purchaserate ;
 
 @FindBy(xpath="//*[@class='btn btn-custom addnewbatchbtn']")
 WebElement AddBatchBtn ;
+
+//Sales Return --- WebElements
+
+@FindBy(xpath="//h3[@class='page-title']")
+WebElement HeaderText ;
+
 
 
   public CartPage(){
@@ -347,7 +353,11 @@ WebElement AddBatchBtn ;
 		
 	}
 	
-	
+	public String getHeaderTitle(){
+		String HeaderTitle = HeaderText.getText();
+		return HeaderTitle ;
+		
+	}
 	
 	
 	

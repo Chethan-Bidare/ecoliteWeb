@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.Ecolite_Web.TestBase.TestBase;
@@ -15,21 +15,21 @@ import com.Ecolite_Web.UI_Actions.LoginPage;
 
 public class TC_004_VerifyStockAfterSale extends TestBase {
 	
-public static final Logger log = Logger.getLogger(TC_002_VerifyCustomerNameInCartPage.class.getName());
+public static final Logger log = Logger.getLogger(TC_004_VerifyStockAfterSale.class.getName());
 	
-	@BeforeTest
+	@BeforeClass
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
 	}
 	@Test
 	public void VerifyStockAfterSale() throws InterruptedException{
-log.info("===== Starting Test VerifyStockAfterSale =======");
+		log.info("===== TC_004_VerifyStockAfterSale Started =======");
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.LoginIntoApplication(OR.getProperty("Mobile"), OR.getProperty("password"));
 		Dashboard db = new Dashboard();
-		db.StartSale("Chethan");
+		db.StartSale("Veena");
 		CartPage cp = new CartPage();
 		int StockBeforeSale = cp.getStock();
 		cp.Select_Single_Item();
@@ -47,7 +47,7 @@ log.info("===== Starting Test VerifyStockAfterSale =======");
 		System.out.println("Stock After Sales : "+AvailableStockAfterSale);
 		Assert.assertEquals(StockBeforeSale, ReducedStockAfterSale);
 		
-		log.info("===== Finished Test VerifyStockAfterSale =======");
+		log.info("===== TC_004_VerifyStockAfterSale Finished =======");
 		
 		
 	}

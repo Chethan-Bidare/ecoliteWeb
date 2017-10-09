@@ -2,13 +2,10 @@ package com.Ecolite_Web.Ecolite_Sales;
 
 import java.io.IOException;
 import java.util.List;
-
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.Ecolite_Web.TestBase.TestBase;
 import com.Ecolite_Web.UI_Actions.CartPage;
 import com.Ecolite_Web.UI_Actions.Dashboard;
@@ -18,7 +15,7 @@ public class TC_013_VerifyAddNewBatch extends TestBase{
 	
 	public static Logger log = Logger.getLogger(TC_013_VerifyAddNewBatch.class.getName());
 
-	@BeforeTest
+	@BeforeClass
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
@@ -26,7 +23,7 @@ public class TC_013_VerifyAddNewBatch extends TestBase{
 	
 	@Test
 	public void VerifyAddNewBatch() throws InterruptedException{
-		log.info(" ===== Started TC013 =====");
+		log.info(" ===== TC_013_VerifyAddNewBatch Started =====");
 		LoginPage lp = new LoginPage(driver);
 		lp.LoginIntoApplication(OR.getProperty("Mobile"),OR.getProperty("password"));
 		Dashboard db = new Dashboard();
@@ -43,16 +40,8 @@ public class TC_013_VerifyAddNewBatch extends TestBase{
 			if(batches.equalsIgnoreCase(CreatedBatchName)){
 				
 				Assert.assertEquals(CreatedBatchName, batches);
-				log.info(" ===== TC013 Finished =====");
+				log.info(" ===== TC_013_VerifyAddNewBatch Finished =====");
 			}
 		}
 	}
-	
-	@AfterClass
-	public void closeBrowser(){
-		CloseBrowser();
-		
-	}
-	
-	
 }

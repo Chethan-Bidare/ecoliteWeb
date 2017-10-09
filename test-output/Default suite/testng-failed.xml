@@ -3,12 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch">
+      <class name="com.Ecolite_Web.Ecolite_SalesReturn.TC_006_VerifyDeletionOfItemsInSalesReturnCart">
         <methods>
-          <include name="VerifyAddNewBatch"/>
+          <include name="VerifyDeleteOptionInCart"/>
+          <include name="getMethod"/>
           <include name="Setup"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch -->
+      </class> <!-- com.Ecolite_Web.Ecolite_SalesReturn.TC_006_VerifyDeletionOfItemsInSalesReturnCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

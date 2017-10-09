@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -16,9 +16,9 @@ import com.Ecolite_Web.UI_Actions.LoginPage;
 
 public class TC_003_VerifyCustomerNameInCheckOutPage extends TestBase {
 
-public static final Logger log = Logger.getLogger(TC_002_VerifyCustomerNameInCartPage.class.getName());
+public static final Logger log = Logger.getLogger(TC_003_VerifyCustomerNameInCheckOutPage.class.getName());
 	
-	@BeforeTest
+	@BeforeClass
 	public void Setup() throws IOException{
 		init();
 		log.info("Initialising Setup Config");
