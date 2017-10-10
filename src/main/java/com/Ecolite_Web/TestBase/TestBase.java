@@ -161,7 +161,7 @@ public String SelectOptionfromAutoCompleteSearch(String name){
 		
 		try {
 			WebElement autoOptions = driver.findElement(By.id("ui-id-1"));
-			Thread.sleep(4000);
+			Thread.sleep(3000);
 			if(autoOptions.isDisplayed()== true){
 			List<WebElement> OptionstoSelect = driver.findElements(By.tagName("li"));
 			for(WebElement we : OptionstoSelect){

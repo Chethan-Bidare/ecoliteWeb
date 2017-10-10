@@ -36,7 +36,7 @@ public static final Logger log = Logger.getLogger(TC_010_VerifyTotalAmountInSale
 		CheckOutPage checkout = new CheckOutPage();
 		checkout.CustomerDetails("Chethan", "Bengaluru");
 		checkout.ProfessionalDetails("doctor");
-		checkout.HomeDelivery();
+		checkout.TurnOffHomeDelivery();
 		checkout.ConfirmSale();
 		double TotalAmount = checkout.AmountPaid();
 		int ActualTotalAmount = (int) TotalAmount ;

@@ -19,6 +19,8 @@
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card"/>
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect"/>
       <class name="com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart"/>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

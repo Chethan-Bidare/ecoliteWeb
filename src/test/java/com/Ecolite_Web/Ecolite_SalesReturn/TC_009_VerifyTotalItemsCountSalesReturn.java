@@ -38,7 +38,7 @@ public static final Logger log = Logger.getLogger(TC_009_VerifyTotalItemsCountSa
 		CheckOutPage checkout = new CheckOutPage();
 		checkout.CustomerDetails("Chethan", "Bengaluru");
 		checkout.ProfessionalDetails("doctor");
-		checkout.HomeDelivery();
+		checkout.TurnOffHomeDelivery();
 		checkout.ConfirmSale();
 		int ItemCountinCheckOutPage = checkout.getItemCountInCheckOutPage();
 		try {

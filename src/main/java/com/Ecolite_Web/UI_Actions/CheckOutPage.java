@@ -97,7 +97,7 @@ public class CheckOutPage extends TestBase{
 		professionalname.sendKeys(ProfName);
 	}
 	
-	public void HomeDelivery(){
+	public void TurnOffHomeDelivery(){
 		HomeDeliveryCheckbox.click();
 	}
 	
@@ -169,6 +169,13 @@ public class CheckOutPage extends TestBase{
 		return PaymentType ;
 	}
 	
+	public boolean getSuccess(){
+		if(driver.findElement(By.xpath("//*[@class='payimg']")).isDisplayed()==true){
+			return true ;
+		}
+		else 
+			return false ;
+	}
 
 
 	

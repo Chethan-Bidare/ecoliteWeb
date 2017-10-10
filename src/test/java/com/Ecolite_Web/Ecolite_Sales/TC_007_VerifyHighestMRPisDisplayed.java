@@ -1,7 +1,6 @@
 package com.Ecolite_Web.Ecolite_Sales;
 
 import java.io.IOException;
-
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

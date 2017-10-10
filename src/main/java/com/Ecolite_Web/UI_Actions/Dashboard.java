@@ -38,6 +38,9 @@ public class Dashboard extends TestBase{
 	@FindBy(id="inlineRadio2")
 	WebElement SaleReturnCheckbox ;
 	
+	@FindBy(id="inlineRadio4")
+	WebElement PurchaseReturnCheckbox ;
+	
 	public Dashboard(){
 		PageFactory.initElements(driver, this);
 	}
@@ -75,6 +78,16 @@ public class Dashboard extends TestBase{
 		bill_no.sendKeys(generateRandomNumber(3));
 		bill_amt.sendKeys(BillAmt);
 		bill_disc.sendKeys(BillDisc);
+		StartPurchase_Btn.click();
+	}
+	
+	public void StartPurchaseReturn(String SupplierName,String BillAmt,String BillDisc){
+		this.SupplierName.sendKeys(SupplierName);
+		SelectOptionfromAutoCompleteSearch(SupplierName);
+		bill_no.sendKeys(generateRandomNumber(3));
+		bill_amt.sendKeys(BillAmt);
+		bill_disc.sendKeys(BillDisc);
+		PurchaseReturnCheckbox.click();
 		StartPurchase_Btn.click();
 	}
 	

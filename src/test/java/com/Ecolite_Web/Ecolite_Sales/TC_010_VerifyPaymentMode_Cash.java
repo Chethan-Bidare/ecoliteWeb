@@ -37,7 +37,7 @@ public class TC_010_VerifyPaymentMode_Cash extends TestBase {
 		CheckOutPage checkoutpage = new CheckOutPage();
 		checkoutpage.CustomerDetails("Chethan", "Bengaluru");
 		checkoutpage.ProfessionalDetails("doctor");
-		checkoutpage.HomeDelivery();
+		checkoutpage.TurnOffHomeDelivery();
 		checkoutpage.SelectCashPayment();
 		checkoutpage.ConfirmSale();
 		String PaymentMode = checkoutpage.getPaymentModeInCheckOutPage();

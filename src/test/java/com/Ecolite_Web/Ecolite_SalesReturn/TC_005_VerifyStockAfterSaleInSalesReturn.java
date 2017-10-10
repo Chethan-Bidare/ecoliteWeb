@@ -38,7 +38,7 @@ public static final Logger log = Logger.getLogger(TC_005_VerifyStockAfterSaleInS
 		CheckOutPage checkout = new CheckOutPage();
 		checkout.CustomerDetails("Chethan", "Bengaluru");
 		checkout.ProfessionalDetails("doctor");
-		checkout.HomeDelivery();
+		checkout.TurnOffHomeDelivery();
 		checkout.ConfirmSale();
 		checkout.NewSaleInSuccessPage();
 		int AvailableStockAfterSalesReturn = cp.getStock();

@@ -42,7 +42,7 @@ public static final Logger log = Logger.getLogger(TC_007_VerifyTotalAmtWithItemP
 		CheckOutPage checkout = new CheckOutPage();
 		checkout.CustomerDetails("Chethan", "Bengaluru");
 		checkout.ProfessionalDetails("doctor");
-		checkout.HomeDelivery();
+		checkout.TurnOffHomeDelivery();
 		checkout.ConfirmSale();
 		int AmountPaid = (int) checkout.AmountPaid();
 		try {

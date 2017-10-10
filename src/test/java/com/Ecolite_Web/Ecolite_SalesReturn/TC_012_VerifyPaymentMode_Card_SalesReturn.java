@@ -37,7 +37,7 @@ public class TC_012_VerifyPaymentMode_Card_SalesReturn extends TestBase{
 			CheckOutPage checkoutpage = new CheckOutPage();
 			checkoutpage.CustomerDetails("Chethan","Bengaluru");
 			checkoutpage.ProfessionalDetails("doctor");
-			checkoutpage.HomeDelivery();
+			checkoutpage.TurnOffHomeDelivery();
 			checkoutpage.SelectCardPayment();
 			checkoutpage.ConfirmSale();
 			String PaymentMode = checkoutpage.getPaymentModeInCheckOutPage();

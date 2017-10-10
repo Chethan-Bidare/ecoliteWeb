@@ -171,8 +171,6 @@ WebElement HeaderText ;
 	
 	
 	public void deleteItemfromCart() throws InterruptedException{
-		
-		
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(".//i[@class='fa fa-trash']")));
 		JavascriptExecutor jse = (JavascriptExecutor) driver ;
 		jse.executeScript("window.scrollBy(0,-550)","");
@@ -360,7 +358,15 @@ WebElement HeaderText ;
 	}
 	
 	
-	
+	public String getBatchfromCartlist() throws InterruptedException{
+		Thread.sleep(5000);
+		JavascriptExecutor jse = (JavascriptExecutor) driver ;
+		jse.executeScript("window.scrollBy(0,-550)","");
+		String batch = driver.findElement(By.xpath("//*[@class='card-title batchtxt']")).getText();
+		batch = batch.substring(13);
+		log.info("Fetching batch Name from Cart list : "+batch);
+		return batch ;
+	}
 	
 	
 	

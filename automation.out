@@ -4970,3 +4970,145 @@
 2017-10-09 15:52:10 INFO  CartPage:144 - Qty is entered
 2017-10-09 15:52:13 INFO  CartPage:148 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (d81c81cc87b76d539fba51b8afb09718)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
 2017-10-09 15:52:16 INFO  CartPage:249 - Clicked on Cart and object is :[[ChromeDriver: chrome on XP (d81c81cc87b76d539fba51b8afb09718)] -> xpath: //h4[contains(text(),'Cart')]]
+2017-10-10 10:46:53 INFO  TC_015_VerifySalesReturnAfterAddNewBatch:23 - Initialising Setup Config
+2017-10-10 10:46:53 INFO  TC_015_VerifySalesReturnAfterAddNewBatch:28 -  ===== TC_015_VerifySalesReturnAfterAddNewBatch Started =====
+2017-10-10 10:46:53 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 10:46:53 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 10:46:54 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 10:46:54 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 10:47:01 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 10:47:08 INFO  CartPage:134 - Clicked on the item and the object is :Arvindasav Liquid 200ml
+2017-10-10 10:47:12 INFO  CartPage:322 - Clicked on Add Batch link and the object is :[[ChromeDriver: chrome on XP (a5d2ac3464ed447b42cf7bc389c5cc9e)] -> xpath: //*[@class='text-center addbatch']]
+2017-10-10 10:47:12 INFO  CartPage:325 - Entered Batch No and the object is :WqiYM
+2017-10-10 10:47:12 INFO  CartPage:327 - Entered Expiry date and the object is :WqiYM
+2017-10-10 10:47:13 INFO  CartPage:329 - Entered looseqty and the object is :[[ChromeDriver: chrome on XP (a5d2ac3464ed447b42cf7bc389c5cc9e)] -> id: looseqty]
+2017-10-10 10:47:13 INFO  CartPage:331 - Entered MRP and the object is :[[ChromeDriver: chrome on XP (a5d2ac3464ed447b42cf7bc389c5cc9e)] -> id: mrp]
+2017-10-10 10:47:13 INFO  CartPage:333 - Entered purchase rate and the object is :[[ChromeDriver: chrome on XP (a5d2ac3464ed447b42cf7bc389c5cc9e)] -> id: purchaserate]
+2017-10-10 10:47:13 INFO  CartPage:335 - Clicked on Add Batch button and the object is :[[ChromeDriver: chrome on XP (a5d2ac3464ed447b42cf7bc389c5cc9e)] -> xpath: //*[@class='btn btn-custom addnewbatchbtn']]
+2017-10-10 10:47:13 INFO  CartPage:336 - Returning batch name created :WqiYM
+2017-10-10 10:47:13 INFO  CartPage:142 - Clearing the Qty field and the object is :5
+2017-10-10 10:47:13 INFO  CartPage:144 - Qty is entered
+2017-10-10 10:47:16 INFO  CartPage:148 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (a5d2ac3464ed447b42cf7bc389c5cc9e)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-10-10 10:47:19 INFO  CartPage:247 - Clicked on Cart and object is :[[ChromeDriver: chrome on XP (a5d2ac3464ed447b42cf7bc389c5cc9e)] -> xpath: //h4[contains(text(),'Cart')]]
+2017-10-10 10:51:40 INFO  TC_015_VerifySalesReturnAfterAddNewBatch:23 - Initialising Setup Config
+2017-10-10 10:51:40 INFO  TC_015_VerifySalesReturnAfterAddNewBatch:28 -  ===== TC_015_VerifySalesReturnAfterAddNewBatch Started =====
+2017-10-10 10:51:40 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 10:51:41 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 10:51:41 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 10:51:41 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 10:51:49 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 10:51:57 INFO  CartPage:134 - Clicked on the item and the object is :Arvindasav Liquid 200ml
+2017-10-10 10:52:01 INFO  CartPage:322 - Clicked on Add Batch link and the object is :[[ChromeDriver: chrome on XP (10f22fb4fc84728e3a3da80ab7d36684)] -> xpath: //*[@class='text-center addbatch']]
+2017-10-10 10:52:01 INFO  CartPage:325 - Entered Batch No and the object is :eqnIK
+2017-10-10 10:52:02 INFO  CartPage:327 - Entered Expiry date and the object is :eqnIK
+2017-10-10 10:52:02 INFO  CartPage:329 - Entered looseqty and the object is :[[ChromeDriver: chrome on XP (10f22fb4fc84728e3a3da80ab7d36684)] -> id: looseqty]
+2017-10-10 10:52:02 INFO  CartPage:331 - Entered MRP and the object is :[[ChromeDriver: chrome on XP (10f22fb4fc84728e3a3da80ab7d36684)] -> id: mrp]
+2017-10-10 10:52:02 INFO  CartPage:333 - Entered purchase rate and the object is :[[ChromeDriver: chrome on XP (10f22fb4fc84728e3a3da80ab7d36684)] -> id: purchaserate]
+2017-10-10 10:52:02 INFO  CartPage:335 - Clicked on Add Batch button and the object is :[[ChromeDriver: chrome on XP (10f22fb4fc84728e3a3da80ab7d36684)] -> xpath: //*[@class='btn btn-custom addnewbatchbtn']]
+2017-10-10 10:52:02 INFO  CartPage:336 - Returning batch name created :eqnIK
+2017-10-10 10:52:02 INFO  CartPage:142 - Clearing the Qty field and the object is :5
+2017-10-10 10:52:03 INFO  CartPage:144 - Qty is entered
+2017-10-10 10:52:06 INFO  CartPage:148 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (10f22fb4fc84728e3a3da80ab7d36684)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-10-10 10:52:09 INFO  CartPage:247 - Clicked on Cart and object is :[[ChromeDriver: chrome on XP (10f22fb4fc84728e3a3da80ab7d36684)] -> xpath: //h4[contains(text(),'Cart')]]
+2017-10-10 11:44:06 INFO  TC_015_VerifySalesReturnAfterAddNewBatch:23 - Initialising Setup Config
+2017-10-10 11:44:06 INFO  TC_015_VerifySalesReturnAfterAddNewBatch:28 -  ===== TC_015_VerifySalesReturnAfterAddNewBatch Started =====
+2017-10-10 11:44:06 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 11:44:06 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 11:44:06 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 11:44:06 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 11:44:13 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 11:44:20 INFO  CartPage:134 - Clicked on the item and the object is :Arvindasav Liquid 200ml
+2017-10-10 11:44:24 INFO  CartPage:322 - Clicked on Add Batch link and the object is :[[ChromeDriver: chrome on XP (e00d23b2b0864da686def3c7d6e265bd)] -> xpath: //*[@class='text-center addbatch']]
+2017-10-10 11:44:24 INFO  CartPage:325 - Entered Batch No and the object is :sqRUe
+2017-10-10 11:44:25 INFO  CartPage:327 - Entered Expiry date and the object is :sqRUe
+2017-10-10 11:44:25 INFO  CartPage:329 - Entered looseqty and the object is :[[ChromeDriver: chrome on XP (e00d23b2b0864da686def3c7d6e265bd)] -> id: looseqty]
+2017-10-10 11:44:25 INFO  CartPage:331 - Entered MRP and the object is :[[ChromeDriver: chrome on XP (e00d23b2b0864da686def3c7d6e265bd)] -> id: mrp]
+2017-10-10 11:44:25 INFO  CartPage:333 - Entered purchase rate and the object is :[[ChromeDriver: chrome on XP (e00d23b2b0864da686def3c7d6e265bd)] -> id: purchaserate]
+2017-10-10 11:44:25 INFO  CartPage:335 - Clicked on Add Batch button and the object is :[[ChromeDriver: chrome on XP (e00d23b2b0864da686def3c7d6e265bd)] -> xpath: //*[@class='btn btn-custom addnewbatchbtn']]
+2017-10-10 11:44:25 INFO  CartPage:336 - Returning batch name created :sqRUe
+2017-10-10 11:44:25 INFO  CartPage:142 - Clearing the Qty field and the object is :5
+2017-10-10 11:44:26 INFO  CartPage:144 - Qty is entered
+2017-10-10 11:44:29 INFO  CartPage:148 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (e00d23b2b0864da686def3c7d6e265bd)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-10-10 11:44:32 INFO  CartPage:247 - Clicked on Cart and object is :[[ChromeDriver: chrome on XP (e00d23b2b0864da686def3c7d6e265bd)] -> xpath: //h4[contains(text(),'Cart')]]
+2017-10-10 11:46:52 INFO  TC_015_VerifySalesAfterAddNewBatch:23 - Initialising Setup Config
+2017-10-10 11:46:52 INFO  TC_015_VerifySalesAfterAddNewBatch:28 -  ===== TC_015_VerifySalesAfterAddNewBatch Started =====
+2017-10-10 11:46:52 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 11:46:52 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 11:46:52 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 11:46:52 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 11:47:00 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 11:47:08 INFO  CartPage:134 - Clicked on the item and the object is :Arvindasav Liquid 200ml
+2017-10-10 11:47:12 INFO  CartPage:322 - Clicked on Add Batch link and the object is :[[ChromeDriver: chrome on XP (d82e31283ea19a37602fe5aab85b4af7)] -> xpath: //*[@class='text-center addbatch']]
+2017-10-10 11:47:12 INFO  CartPage:325 - Entered Batch No and the object is :XOAMf
+2017-10-10 11:47:13 INFO  CartPage:327 - Entered Expiry date and the object is :XOAMf
+2017-10-10 11:47:13 INFO  CartPage:329 - Entered looseqty and the object is :[[ChromeDriver: chrome on XP (d82e31283ea19a37602fe5aab85b4af7)] -> id: looseqty]
+2017-10-10 11:47:13 INFO  CartPage:331 - Entered MRP and the object is :[[ChromeDriver: chrome on XP (d82e31283ea19a37602fe5aab85b4af7)] -> id: mrp]
+2017-10-10 11:47:13 INFO  CartPage:333 - Entered purchase rate and the object is :[[ChromeDriver: chrome on XP (d82e31283ea19a37602fe5aab85b4af7)] -> id: purchaserate]
+2017-10-10 11:47:13 INFO  CartPage:335 - Clicked on Add Batch button and the object is :[[ChromeDriver: chrome on XP (d82e31283ea19a37602fe5aab85b4af7)] -> xpath: //*[@class='btn btn-custom addnewbatchbtn']]
+2017-10-10 11:47:13 INFO  CartPage:336 - Returning batch name created :XOAMf
+2017-10-10 11:47:13 INFO  CartPage:142 - Clearing the Qty field and the object is :5
+2017-10-10 11:47:13 INFO  CartPage:144 - Qty is entered
+2017-10-10 11:47:17 INFO  CartPage:148 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (d82e31283ea19a37602fe5aab85b4af7)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-10-10 11:47:20 INFO  CartPage:247 - Clicked on Cart and object is :[[ChromeDriver: chrome on XP (d82e31283ea19a37602fe5aab85b4af7)] -> xpath: //h4[contains(text(),'Cart')]]
+2017-10-10 11:47:34 INFO  CartPage:215 - Clicked on Proceed button and the object is [[ChromeDriver: chrome on XP (d82e31283ea19a37602fe5aab85b4af7)] -> xpath: //h4[contains(text(),'Proceed')]]
+2017-10-10 11:47:37 INFO  TC_015_VerifySalesAfterAddNewBatch:48 -  ===== TC_015_VerifySalesAfterAddNewBatch Finished =====
+2017-10-10 11:49:32 INFO  TC_015_VerifySalesAfterAddNewBatch:23 - Initialising Setup Config
+2017-10-10 11:49:32 INFO  TC_015_VerifySalesAfterAddNewBatch:28 -  ===== TC_015_VerifySalesAfterAddNewBatch Started =====
+2017-10-10 11:49:32 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 11:49:32 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 11:49:32 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 11:49:32 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 11:49:40 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 11:49:46 INFO  CartPage:134 - Clicked on the item and the object is :Arvindasav Liquid 200ml
+2017-10-10 11:49:50 INFO  CartPage:322 - Clicked on Add Batch link and the object is :[[ChromeDriver: chrome on XP (59336ea4c5eb0b00b81ca6aa43e8c597)] -> xpath: //*[@class='text-center addbatch']]
+2017-10-10 11:49:50 INFO  CartPage:325 - Entered Batch No and the object is :XhKFr
+2017-10-10 11:49:51 INFO  CartPage:327 - Entered Expiry date and the object is :XhKFr
+2017-10-10 11:49:51 INFO  CartPage:329 - Entered looseqty and the object is :[[ChromeDriver: chrome on XP (59336ea4c5eb0b00b81ca6aa43e8c597)] -> id: looseqty]
+2017-10-10 11:49:51 INFO  CartPage:331 - Entered MRP and the object is :[[ChromeDriver: chrome on XP (59336ea4c5eb0b00b81ca6aa43e8c597)] -> id: mrp]
+2017-10-10 11:49:51 INFO  CartPage:333 - Entered purchase rate and the object is :[[ChromeDriver: chrome on XP (59336ea4c5eb0b00b81ca6aa43e8c597)] -> id: purchaserate]
+2017-10-10 11:49:52 INFO  CartPage:335 - Clicked on Add Batch button and the object is :[[ChromeDriver: chrome on XP (59336ea4c5eb0b00b81ca6aa43e8c597)] -> xpath: //*[@class='btn btn-custom addnewbatchbtn']]
+2017-10-10 11:49:52 INFO  CartPage:336 - Returning batch name created :XhKFr
+2017-10-10 11:49:52 INFO  CartPage:142 - Clearing the Qty field and the object is :5
+2017-10-10 11:49:52 INFO  CartPage:144 - Qty is entered
+2017-10-10 11:49:55 INFO  CartPage:148 - Clicked on Add button and the object is :[[ChromeDriver: chrome on XP (59336ea4c5eb0b00b81ca6aa43e8c597)] -> xpath: //button[@class='btn btn-custom addbatchbtn']]
+2017-10-10 11:49:58 INFO  CartPage:247 - Clicked on Cart and object is :[[ChromeDriver: chrome on XP (59336ea4c5eb0b00b81ca6aa43e8c597)] -> xpath: //h4[contains(text(),'Cart')]]
+2017-10-10 11:50:03 INFO  CartPage:367 - Fetching batch Name from Cart list : XhKFr
+2017-10-10 11:50:12 INFO  CartPage:215 - Clicked on Proceed button and the object is [[ChromeDriver: chrome on XP (59336ea4c5eb0b00b81ca6aa43e8c597)] -> xpath: //h4[contains(text(),'Proceed')]]
+2017-10-10 11:50:15 INFO  TC_015_VerifySalesAfterAddNewBatch:48 -  ===== TC_015_VerifySalesAfterAddNewBatch Finished =====
+2017-10-10 14:39:02 INFO  TC_001_VerifyPurchaseStart:20 - Initialising Setup Config
+2017-10-10 14:39:02 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 14:39:02 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 14:39:02 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 14:39:03 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 14:39:10 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 14:40:19 INFO  TC_001_VerifyPurchaseStart:20 - Initialising Setup Config
+2017-10-10 14:40:19 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 14:40:19 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 14:40:19 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 14:40:19 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 14:40:26 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 14:46:19 INFO  TC_001_VerifyPurchaseStart:20 - Initialising Setup Config
+2017-10-10 14:46:19 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 14:46:19 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 14:46:19 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 14:46:19 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 14:46:27 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 14:51:14 INFO  TC_001_VerifyPurchaseStart:20 - Initialising Setup Config
+2017-10-10 14:51:14 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 14:51:14 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 14:51:14 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 14:51:15 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 14:51:22 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 14:52:08 INFO  TC_001_VerifyPurchaseStart:20 - Initialising Setup Config
+2017-10-10 14:52:08 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 14:52:08 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 14:52:08 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 14:52:08 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 14:52:15 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-10 15:26:16 INFO  TC_001_VerifyPurchaseStart:22 - Initialising Setup Config
+2017-10-10 15:26:16 INFO  TC_001_VerifyPurchaseStart:27 - ===== TC_001_VerifyPurchaseStart Started =====
+2017-10-10 15:26:16 INFO  LoginPage:44 - Clearing the input field 
+2017-10-10 15:26:16 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-10 15:26:16 INFO  LoginPage:48 - Clearing the input field 
+2017-10-10 15:26:16 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-10 15:26:24 INFO  LoginPage:52 - Clicked on Login button 

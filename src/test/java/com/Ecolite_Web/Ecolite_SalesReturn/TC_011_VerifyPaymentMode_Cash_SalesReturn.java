@@ -37,7 +37,7 @@ public static Logger log = Logger.getLogger(TC_011_VerifyPaymentMode_Cash_SalesR
 		CheckOutPage checkoutpage = new CheckOutPage();
 		checkoutpage.CustomerDetails("Chethan", "Bengaluru");
 		checkoutpage.ProfessionalDetails("doctor");
-		checkoutpage.HomeDelivery();
+		checkoutpage.TurnOffHomeDelivery();
 		checkoutpage.SelectCashPayment();
 		checkoutpage.ConfirmSale();
 		String PaymentMode = checkoutpage.getPaymentModeInCheckOutPage();

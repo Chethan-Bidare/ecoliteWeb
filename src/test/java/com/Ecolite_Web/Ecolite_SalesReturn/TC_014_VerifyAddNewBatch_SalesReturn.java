@@ -15,7 +15,7 @@ import com.Ecolite_Web.UI_Actions.LoginPage;
 
 public class TC_014_VerifyAddNewBatch_SalesReturn extends TestBase{
 	
-	public static Logger log = Logger.getLogger(TC_014_VerifyAddNewBatch_SalesReturn.class.getName());
+	public static final Logger log = Logger.getLogger(TC_014_VerifyAddNewBatch_SalesReturn.class.getName());
 
 	@BeforeClass
 	public void Setup() throws IOException{

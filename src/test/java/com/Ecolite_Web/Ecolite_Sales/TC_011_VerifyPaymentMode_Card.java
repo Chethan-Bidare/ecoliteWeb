@@ -37,7 +37,7 @@ public static Logger log = Logger.getLogger(TC_011_VerifyPaymentMode_Card.class.
 		CheckOutPage checkoutpage = new CheckOutPage();
 		checkoutpage.CustomerDetails("Chethan","Bengaluru");
 		checkoutpage.ProfessionalDetails("doctor");
-		checkoutpage.HomeDelivery();
+		checkoutpage.TurnOffHomeDelivery();
 		checkoutpage.SelectCardPayment();
 		checkoutpage.ConfirmSale();
 		String PaymentMode = checkoutpage.getPaymentModeInCheckOutPage();

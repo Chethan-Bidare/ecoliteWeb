@@ -36,7 +36,7 @@ public class TC_009_VerifyTotalAmountInCheckOutPage extends TestBase {
 		CheckOutPage checkout = new CheckOutPage();
 		checkout.CustomerDetails("Chethan", "Bengaluru");
 		checkout.ProfessionalDetails("doctor");
-		checkout.HomeDelivery();
+		checkout.TurnOffHomeDelivery();
 		checkout.ConfirmSale();
 		double TotalAmount = checkout.AmountPaid();
 		int ActualTotalAmount = (int) TotalAmount ;

@@ -38,7 +38,7 @@ public class TC_008_VerifyTotalItemsCount extends TestBase {
 		CheckOutPage checkout = new CheckOutPage();
 		checkout.CustomerDetails("Chethan", "Bengaluru");
 		checkout.ProfessionalDetails("doctor");
-		checkout.HomeDelivery();
+		checkout.TurnOffHomeDelivery();
 		checkout.ConfirmSale();
 		int ItemCountinCheckOutPage = checkout.getItemCountInCheckOutPage();
 		try {

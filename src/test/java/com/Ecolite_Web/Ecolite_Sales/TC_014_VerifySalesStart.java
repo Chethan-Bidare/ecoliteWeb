@@ -23,7 +23,7 @@ public class TC_014_VerifySalesStart extends TestBase {
 	}
 	
 	@Test
-	public void VerifySalesReturnStart(){
+	public void VerifySalesStart(){
 		log.info("===== TC_014_VerifySalesStart Started =====");
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.LoginIntoApplication(OR.getProperty("Mobile"), OR.getProperty("password"));
