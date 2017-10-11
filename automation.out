@@ -5112,3 +5112,123 @@
 2017-10-10 15:26:16 INFO  LoginPage:48 - Clearing the input field 
 2017-10-10 15:26:16 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
 2017-10-10 15:26:24 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 15:55:34 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 15:55:34 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 15:55:34 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 15:55:34 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 15:55:34 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 15:55:34 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 15:55:41 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 15:55:52 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 15:56:25 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 15:56:25 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 15:56:26 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 15:56:26 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 15:56:26 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 15:56:26 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 15:56:32 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 15:56:43 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:01:34 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:01:34 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:01:34 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:01:34 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:01:34 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:01:34 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:01:42 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:01:53 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:02:31 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:02:31 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:02:31 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:02:32 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:02:32 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:02:32 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:02:39 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:02:50 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:03:22 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:03:22 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:03:22 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:03:22 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:03:22 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:03:22 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:03:30 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:03:41 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:06:27 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:06:27 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:06:27 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:06:27 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:06:27 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:06:27 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:06:35 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:06:46 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:09:39 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:09:39 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:09:39 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:09:39 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:09:39 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:09:39 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:09:47 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:09:58 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:10:47 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:10:47 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:10:47 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:10:47 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:10:47 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:10:47 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:10:54 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:11:09 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:17:33 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:17:33 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:17:33 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:17:34 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:17:34 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:17:34 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:17:41 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:17:53 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:37:05 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:37:05 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:37:05 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:37:05 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:37:05 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:37:05 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:37:13 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:37:25 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:37:56 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:37:56 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:37:57 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:37:57 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:37:57 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:37:57 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:38:04 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:38:16 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:39:28 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:39:28 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:39:28 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:39:28 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:39:28 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:39:28 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:39:36 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:39:48 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 16:44:29 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 16:44:29 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 16:44:29 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 16:44:29 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 16:44:29 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 16:44:29 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 16:44:40 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 16:44:52 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 17:11:19 INFO  TC_016_VerifyItemSearchInSales:23 - Initialising Setup Config
+2017-10-11 17:11:19 INFO  TC_016_VerifyItemSearchInSales:28 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 17:11:19 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 17:11:19 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 17:11:19 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 17:11:19 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 17:11:27 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 17:11:39 INFO  CartPage:384 - Fetching all the elements of items
+2017-10-11 17:17:13 INFO  TC_016_VerifyItemSearchInSales:24 - Initialising Setup Config
+2017-10-11 17:17:13 INFO  TC_016_VerifyItemSearchInSales:29 -  ===== TC_016_VerifyItemSearchInSales Started =====
+2017-10-11 17:17:13 INFO  LoginPage:44 - Clearing the input field 
+2017-10-11 17:17:13 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-11 17:17:13 INFO  LoginPage:48 - Clearing the input field 
+2017-10-11 17:17:13 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-11 17:17:21 INFO  LoginPage:52 - Clicked on Login button 
+2017-10-11 17:17:33 INFO  CartPage:383 - Fetching all the elements of items

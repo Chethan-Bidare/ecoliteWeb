@@ -72,6 +72,9 @@ WebElement purchaserate ;
 @FindBy(xpath="//*[@class='btn btn-custom addnewbatchbtn']")
 WebElement AddBatchBtn ;
 
+@FindBy(id="item-search")
+WebElement ItemSearch ;
+
 //Sales Return --- WebElements
 
 @FindBy(xpath="//h3[@class='page-title']")
@@ -368,8 +371,25 @@ WebElement HeaderText ;
 		return batch ;
 	}
 	
+	public void ItemSearch(String ItemName) throws InterruptedException{
+		ItemSearch.clear();
+		ItemSearch.sendKeys(ItemName);
+		Thread.sleep(3000);
+	}
 	
 	
+	public List<String> getItemNames() throws InterruptedException{
+	Thread.sleep(4000);
+	log.info("Fetching all the elements of items");
+	List<String> ItemNames = new ArrayList<String>();
+	for(int i=1; i<4; i++){
+	ItemNames.add(driver.findElement(By.xpath("//*[@id='priorityItemList']/div["+i+"]/div/div[2]/h5")).getText());
+	}
+	
+	return ItemNames ;
+	
+	
+	}
 	
 	
 	
