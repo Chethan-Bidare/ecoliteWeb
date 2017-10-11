@@ -378,7 +378,7 @@ WebElement HeaderText ;
 	}
 	
 	
-	public List<String> getItemNames() throws InterruptedException{
+	public List<String> getItemNamesAfterSearch() throws InterruptedException{
 	Thread.sleep(4000);
 	log.info("Fetching all the elements of items");
 	List<String> ItemNames = new ArrayList<String>();
@@ -391,6 +391,18 @@ WebElement HeaderText ;
 	
 	}
 	
+	public List<String> getItemNamesAfterSearchPur() throws InterruptedException{
+		Thread.sleep(8000);
+		log.info("Fetching all the elements of items");
+		List<String> ItemNames = new ArrayList<String>();
+		for(int i=1; i<4; i++){
+		ItemNames.add(driver.findElement(By.xpath("//*[@id='searchLists']/div["+i+"]/div/div[2]/h5")).getText());
+		}
+		
+		return ItemNames ;
+		
+		
+		}
 	
 	
 	

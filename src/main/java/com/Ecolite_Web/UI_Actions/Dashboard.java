@@ -72,16 +72,17 @@ public class Dashboard extends TestBase{
 	
 	
 	
-	public void StartPurchase(String SupplierName,String BillAmt,String BillDisc){
+	public void StartPurchase(String SupplierName,String BillAmt,String BillDisc) throws InterruptedException{
 		this.SupplierName.sendKeys(SupplierName);
 		SelectOptionfromAutoCompleteSearch(SupplierName);
 		bill_no.sendKeys(generateRandomNumber(3));
 		bill_amt.sendKeys(BillAmt);
 		bill_disc.sendKeys(BillDisc);
 		StartPurchase_Btn.click();
+		Thread.sleep(3000);
 	}
 	
-	public void StartPurchaseReturn(String SupplierName,String BillAmt,String BillDisc){
+	public void StartPurchaseReturn(String SupplierName,String BillAmt,String BillDisc) throws InterruptedException{
 		this.SupplierName.sendKeys(SupplierName);
 		SelectOptionfromAutoCompleteSearch(SupplierName);
 		bill_no.sendKeys(generateRandomNumber(3));
@@ -89,6 +90,7 @@ public class Dashboard extends TestBase{
 		bill_disc.sendKeys(BillDisc);
 		PurchaseReturnCheckbox.click();
 		StartPurchase_Btn.click();
+		Thread.sleep(3000);
 	}
 	
 	public void StartSale(String CustomerName){

@@ -16,7 +16,7 @@ import com.Ecolite_Web.UI_Actions.LoginPage;
 public class TC_016_VerifyItemSearchInSales extends TestBase{
 
 	public static final Logger log = Logger.getLogger(TC_016_VerifyItemSearchInSales.class.getName());
-	String itemnameSearch = "rantac";
+	String itemnameSearch = "RANTAC";
 	
 	@BeforeClass
 	public void Setup() throws IOException{
@@ -33,12 +33,12 @@ public class TC_016_VerifyItemSearchInSales extends TestBase{
 		dashboard.StartSale("Veena");
 		CartPage cartpage = new CartPage();
 		cartpage.ItemSearch(itemnameSearch);
-		List<String>ItemNames = cartpage.getItemNames();
+		List<String>ItemNames = cartpage.getItemNamesAfterSearch();
 		for(String item : ItemNames){
 			System.out.println(item);
 			if(item.contains(itemnameSearch)){
 				Assert.assertTrue(true);
-				log.info(" ===== TC_016_VerifyItemSearchInSales Started =====");
+				log.info(" ===== TC_016_VerifyItemSearchInSales Finished =====");
 			}
 			else
 				log.info(" ===== TC_016_VerifyItemSearchInSales Failed for one or more items =====");

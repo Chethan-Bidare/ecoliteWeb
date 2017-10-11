@@ -23,7 +23,7 @@ public class TC_001_VerifyPurchaseStart extends TestBase {
 	}
 	
 	@Test
-	public void VerifyPurchaseStart(){
+	public void VerifyPurchaseStart() throws InterruptedException{
 		log.info("===== TC_001_VerifyPurchaseStart Started =====");
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.LoginIntoApplication(OR.getProperty("Mobile"), OR.getProperty("password"));

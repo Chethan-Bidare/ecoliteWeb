@@ -23,7 +23,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyPurchaseReturnSta
 	}
 	
 	@Test
-	public void VerifyPurchaseReturnStart(){
+	public void VerifyPurchaseReturnStart() throws InterruptedException{
 		log.info("===== TC_001_VerifyPurchaseReturnStart Started =====");
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.LoginIntoApplication(OR.getProperty("Mobile"), OR.getProperty("password"));
