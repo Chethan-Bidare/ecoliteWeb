@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Sales Regression Suite]">
+  <listeners>
+    <listener class-name="com.Ecolite_Web.Listeners.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect">
+        <methods>
+          <include name="VerifyStockDisplayedIsCorrect" invocation-numbers="0 1"/>
+          <include name="getMethod"/>
+          <include name="Setup"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount">
+        <methods>
+          <include name="VerifyItemCount"/>
+          <include name="Setup"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale">
+        <methods>
+          <include name="VerifyStockAfterSale"/>
+          <include name="Setup"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice">
+        <methods>
+          <include name="VerifyTotalAmtinCheckOutPage"/>
+          <include name="getMethod"/>
+          <include name="Setup"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch">
+        <methods>
+          <include name="Setup"/>
+          <include name="VerifySalesAfterAddNewBatch"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart">
+        <methods>
+          <include name="CheckItemsAddedToCart"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="Setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card">
+        <methods>
+          <include name="VerifyPaymentMode_Card"/>
+          <include name="Setup"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage">
+        <methods>
+          <include name="Setup"/>
+          <include name="getMethod"/>
+          <include name="VerifyTotalAmount"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash">
+        <methods>
+          <include name="VerifyPaymentMode_Cash"/>
+          <include name="Setup"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage">
+        <methods>
+          <include name="getMethod"/>
+          <include name="VerifyCustomerNameInCartPag" invocation-numbers="0"/>
+          <include name="endTest"/>
+          <include name="Setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage">
+        <methods>
+          <include name="VerifyCustomerNameInCartPag" invocation-numbers="0"/>
+          <include name="Setup"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch">
+        <methods>
+          <include name="VerifyAddNewBatch"/>
+          <include name="Setup"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage">
+        <methods>
+          <include name="Setup"/>
+          <include name="VerifyDeleteOptionInCart"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart">
+        <methods>
+          <include name="Setup"/>
+          <include name="VerifySalesStart"/>
+          <include name="getMethod"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed">
+        <methods>
+          <include name="Setup"/>
+          <include name="getMethod"/>
+          <include name="TC_007_verifyHighestMRPisDisplayed"/>
+          <include name="endTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Sales Regression Suite] -->

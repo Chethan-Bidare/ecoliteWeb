@@ -1,11 +1,1899 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="16" ignored="0" total="16" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\CheckItemsAddedToCart_2017_10_286_12_10_528.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\CheckItemsAddedToCart_2017_10_286_12_10_528.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_723.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_723.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_319.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_319.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockAfterSale_2017_10_286_12_10_981.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockAfterSale_2017_10_286_12_10_981.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyDeleteOptionInCart_2017_10_286_12_10_767.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyDeleteOptionInCart_2017_10_286_12_10_767.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmtinCheckOutPage_2017_10_286_12_10_449.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmtinCheckOutPage_2017_10_286_12_10_449.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\TC_007_verifyHighestMRPisDisplayed_2017_10_286_12_10_354.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\TC_007_verifyHighestMRPisDisplayed_2017_10_286_12_10_354.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyItemCount_2017_10_286_12_10_217.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyItemCount_2017_10_286_12_10_217.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmount_2017_10_286_12_10_85.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmount_2017_10_286_12_10_85.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Cash_2017_10_286_12_10_794.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Cash_2017_10_286_12_10_794.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Card_2017_10_286_12_10_675.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Card_2017_10_286_12_10_675.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_201.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_201.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_64.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_64.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyAddNewBatch_2017_10_286_12_10_480.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyAddNewBatch_2017_10_286_12_10_480.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesStart_2017_10_286_12_10_247.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesStart_2017_10_286_12_10_247.png' hieght='100' width='100' /></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesAfterAddNewBatch_2017_10_286_12_10_517.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesAfterAddNewBatch_2017_10_286_12_10_517.png' hieght='100' width='100' /></a>]]>
+    </line>
   </reporter-output>
-  <suite name="com.Ecolite_Web.Ecolite_Web.AppTest" duration-ms="2" started-at="2017-09-21T06:01:09Z" finished-at="2017-09-21T06:01:09Z">
+  <suite name="Sales Regression Suite" duration-ms="142917" started-at="2017-10-13T06:41:24Z" finished-at="2017-10-13T06:43:47Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2" started-at="2017-09-21T06:01:09Z" finished-at="2017-09-21T06:01:09Z">
-    </test> <!-- Command line test -->
-  </suite> <!-- com.Ecolite_Web.Ecolite_Web.AppTest -->
+    <test name="Test" duration-ms="142917" started-at="2017-10-13T06:41:24Z" finished-at="2017-10-13T06:43:47Z">
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@5f71c76a]" name="Setup" is-config="true" duration-ms="5286" started-at="2017-10-13T12:11:48Z" finished-at="2017-10-13T12:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@5f71c76a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:11:53Z" finished-at="2017-10-13T12:11:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage.VerifyCustomerNameInCartPag(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifyCustomerNameInCartPag(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@5f71c76a]" name="VerifyCustomerNameInCartPag" duration-ms="1683" started-at="2017-10-13T12:11:53Z" data-provider="TC_002_VerifyCustomerName" finished-at="2017-10-13T12:11:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8147519664]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[000999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VEENA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir1552_11491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: c97f32741d4a91be96da670a31e65423
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir1552_11491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: c97f32741d4a91be96da670a31e65423
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage.VerifyCustomerNameInCartPag(TC_003_VerifyCustomerNameInCheckOutPage.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_319.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_319.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCustomerNameInCartPag -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@5f71c76a]" name="getMethod" is-config="true" duration-ms="1" started-at="2017-10-13T12:11:55Z" finished-at="2017-10-13T12:11:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCustomerNameInCartPag status=FAILURE method=TC_003_VerifyCustomerNameInCheckOutPage.VerifyCustomerNameInCartPag(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@5f71c76a] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_319.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_319.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage@5f71c76a]" name="endTest" is-config="true" duration-ms="229" started-at="2017-10-13T12:11:55Z" finished-at="2017-10-13T12:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart@1cab0bfb]" name="Setup" is-config="true" duration-ms="6274" started-at="2017-10-13T12:13:22Z" finished-at="2017-10-13T12:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart@1cab0bfb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:28Z" finished-at="2017-10-13T12:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart.VerifySalesStart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifySalesStart()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart@1cab0bfb]" name="VerifySalesStart" duration-ms="1920" started-at="2017-10-13T12:13:28Z" finished-at="2017-10-13T12:13:30Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8868_21602}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1ca37ff3b3f7fc23f07c113fb3336e35
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8868_21602}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1ca37ff3b3f7fc23f07c113fb3336e35
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart.VerifySalesStart(TC_014_VerifySalesStart.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesStart_2017_10_286_12_10_247.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesStart_2017_10_286_12_10_247.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySalesStart -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart@1cab0bfb]" name="endTest" is-config="true" duration-ms="2367" started-at="2017-10-13T12:13:30Z" finished-at="2017-10-13T12:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart@1cab0bfb]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:30Z" finished-at="2017-10-13T12:13:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySalesStart status=FAILURE method=TC_014_VerifySalesStart.VerifySalesStart()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart@1cab0bfb] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesStart_2017_10_286_12_10_247.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesStart_2017_10_286_12_10_247.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale@1d7acb34]" name="Setup" is-config="true" duration-ms="5240" started-at="2017-10-13T12:11:55Z" finished-at="2017-10-13T12:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="VerifyStockAfterSale()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale@1d7acb34]" name="VerifyStockAfterSale" duration-ms="1787" started-at="2017-10-13T12:12:01Z" finished-at="2017-10-13T12:12:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir10548_25136}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4c1c43b6500cc58736c5264ae7eeb04f
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir10548_25136}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4c1c43b6500cc58736c5264ae7eeb04f
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale.VerifyStockAfterSale(TC_004_VerifyStockAfterSale.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockAfterSale_2017_10_286_12_10_981.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockAfterSale_2017_10_286_12_10_981.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyStockAfterSale -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale@1d7acb34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:01Z" finished-at="2017-10-13T12:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale.VerifyStockAfterSale() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale@1d7acb34]" name="endTest" is-config="true" duration-ms="317" started-at="2017-10-13T12:12:03Z" finished-at="2017-10-13T12:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale@1d7acb34]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:03Z" finished-at="2017-10-13T12:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyStockAfterSale status=FAILURE method=TC_004_VerifyStockAfterSale.VerifyStockAfterSale()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale@1d7acb34] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockAfterSale_2017_10_286_12_10_981.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockAfterSale_2017_10_286_12_10_981.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice@1e4a7dd4]" name="Setup" is-config="true" duration-ms="6300" started-at="2017-10-13T12:12:11Z" finished-at="2017-10-13T12:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice@1e4a7dd4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:17Z" finished-at="2017-10-13T12:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice.VerifyTotalAmtinCheckOutPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifyTotalAmtinCheckOutPage()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice@1e4a7dd4]" name="VerifyTotalAmtinCheckOutPage" duration-ms="1697" started-at="2017-10-13T12:12:17Z" finished-at="2017-10-13T12:12:19Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir10720_17748}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d774118a986a8a0d8a02b43fed21ea49
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir10720_17748}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d774118a986a8a0d8a02b43fed21ea49
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice.VerifyTotalAmtinCheckOutPage(TC_006_VerifyTotalAmtWithItemPrice.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmtinCheckOutPage_2017_10_286_12_10_449.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmtinCheckOutPage_2017_10_286_12_10_449.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalAmtinCheckOutPage -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice@1e4a7dd4]" name="getMethod" is-config="true" duration-ms="1" started-at="2017-10-13T12:12:19Z" finished-at="2017-10-13T12:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTotalAmtinCheckOutPage status=FAILURE method=TC_006_VerifyTotalAmtWithItemPrice.VerifyTotalAmtinCheckOutPage()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice@1e4a7dd4] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmtinCheckOutPage_2017_10_286_12_10_449.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmtinCheckOutPage_2017_10_286_12_10_449.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice@1e4a7dd4]" name="endTest" is-config="true" duration-ms="230" started-at="2017-10-13T12:12:19Z" finished-at="2017-10-13T12:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0]" name="Setup" is-config="true" duration-ms="5292" started-at="2017-10-13T12:13:05Z" finished-at="2017-10-13T12:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="VerifyStockDisplayedIsCorrect(java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0]" name="VerifyStockDisplayedIsCorrect" duration-ms="1657" started-at="2017-10-13T12:13:10Z" data-provider="TestdataforStockCheck" finished-at="2017-10-13T12:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROMSON FLATUS ADULT TUBE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8704_16707}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2173ac55ad73ac43d55057f99d7f0bd8
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8704_16707}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2173ac55ad73ac43d55057f99d7f0bd8
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect.VerifyStockDisplayedIsCorrect(TC_012_VerifyStockDisplayedIsCorrect.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_201.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_201.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyStockDisplayedIsCorrect -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:10Z" finished-at="2017-10-13T12:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect.VerifyStockDisplayedIsCorrect(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:12Z" finished-at="2017-10-13T12:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect.VerifyStockDisplayedIsCorrect(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifyStockDisplayedIsCorrect(java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0]" name="VerifyStockDisplayedIsCorrect" duration-ms="1498" started-at="2017-10-13T12:13:12Z" data-provider="TestdataforStockCheck" finished-at="2017-10-13T12:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arza 15mg Tab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8704_16707}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2173ac55ad73ac43d55057f99d7f0bd8
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8704_16707}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2173ac55ad73ac43d55057f99d7f0bd8
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect.VerifyStockDisplayedIsCorrect(TC_012_VerifyStockDisplayedIsCorrect.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_64.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_64.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyStockDisplayedIsCorrect -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:12Z" finished-at="2017-10-13T12:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyStockDisplayedIsCorrect status=FAILURE method=TC_012_VerifyStockDisplayedIsCorrect.VerifyStockDisplayedIsCorrect(java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_201.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_201.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0]" name="getMethod" is-config="true" duration-ms="1" started-at="2017-10-13T12:13:14Z" finished-at="2017-10-13T12:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyStockDisplayedIsCorrect status=FAILURE method=TC_012_VerifyStockDisplayedIsCorrect.VerifyStockDisplayedIsCorrect(java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_64.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyStockDisplayedIsCorrect_2017_10_286_12_10_64.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect@1ad282e0]" name="endTest" is-config="true" duration-ms="222" started-at="2017-10-13T12:13:14Z" finished-at="2017-10-13T12:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart@69379752]" name="Setup" is-config="true" duration-ms="6070" started-at="2017-10-13T12:11:24Z" finished-at="2017-10-13T12:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart@69379752]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2017-10-13T12:11:30Z" finished-at="2017-10-13T12:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart.CheckItemsAddedToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="CheckItemsAddedToCart()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart@69379752]" name="CheckItemsAddedToCart" duration-ms="9214" started-at="2017-10-13T12:11:30Z" finished-at="2017-10-13T12:11:39Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9796_24546}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a0be779d1403926f64617e4c5ad789b9
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9796_24546}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a0be779d1403926f64617e4c5ad789b9
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart.CheckItemsAddedToCart(TC_001_VerifyItemsAddedIsPresentInCart.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\CheckItemsAddedToCart_2017_10_286_12_10_528.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\CheckItemsAddedToCart_2017_10_286_12_10_528.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CheckItemsAddedToCart -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart@69379752]" name="endTest" is-config="true" duration-ms="346" started-at="2017-10-13T12:11:39Z" finished-at="2017-10-13T12:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart@69379752]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:11:39Z" finished-at="2017-10-13T12:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckItemsAddedToCart status=FAILURE method=TC_001_VerifyItemsAddedIsPresentInCart.CheckItemsAddedToCart()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart@69379752] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\CheckItemsAddedToCart_2017_10_286_12_10_528.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\CheckItemsAddedToCart_2017_10_286_12_10_528.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@7f416310]" name="Setup" is-config="true" duration-ms="5177" started-at="2017-10-13T12:13:14Z" finished-at="2017-10-13T12:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@7f416310]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:19Z" finished-at="2017-10-13T12:13:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch.VerifyAddNewBatch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifyAddNewBatch()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@7f416310]" name="VerifyAddNewBatch" duration-ms="1699" started-at="2017-10-13T12:13:19Z" finished-at="2017-10-13T12:13:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir4028_21127}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7fe11d66e82ec4486f1c22ccbbcdbe3d
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir4028_21127}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7fe11d66e82ec4486f1c22ccbbcdbe3d
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch.VerifyAddNewBatch(TC_013_VerifyAddNewBatch.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyAddNewBatch_2017_10_286_12_10_480.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyAddNewBatch_2017_10_286_12_10_480.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyAddNewBatch -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@7f416310]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:21Z" finished-at="2017-10-13T12:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAddNewBatch status=FAILURE method=TC_013_VerifyAddNewBatch.VerifyAddNewBatch()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@7f416310] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyAddNewBatch_2017_10_286_12_10_480.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyAddNewBatch_2017_10_286_12_10_480.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch@7f416310]" name="endTest" is-config="true" duration-ms="175" started-at="2017-10-13T12:13:21Z" finished-at="2017-10-13T12:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage@5e57643e]" name="Setup" is-config="true" duration-ms="5501" started-at="2017-10-13T12:12:41Z" finished-at="2017-10-13T12:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage@5e57643e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:47Z" finished-at="2017-10-13T12:12:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage.VerifyTotalAmount() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifyTotalAmount()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage@5e57643e]" name="VerifyTotalAmount" duration-ms="1785" started-at="2017-10-13T12:12:47Z" finished-at="2017-10-13T12:12:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir7996_2899}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb52b8a0e7a0efeb2d178d297d1e5b98
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir7996_2899}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb52b8a0e7a0efeb2d178d297d1e5b98
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage.VerifyTotalAmount(TC_009_VerifyTotalAmountInCheckOutPage.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmount_2017_10_286_12_10_85.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmount_2017_10_286_12_10_85.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTotalAmount -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage@5e57643e]" name="endTest" is-config="true" duration-ms="234" started-at="2017-10-13T12:12:49Z" finished-at="2017-10-13T12:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage@5e57643e]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:49Z" finished-at="2017-10-13T12:12:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTotalAmount status=FAILURE method=TC_009_VerifyTotalAmountInCheckOutPage.VerifyTotalAmount()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage@5e57643e] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmount_2017_10_286_12_10_85.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyTotalAmount_2017_10_286_12_10_85.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash@133e16fd]" name="Setup" is-config="true" duration-ms="5343" started-at="2017-10-13T12:12:49Z" finished-at="2017-10-13T12:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash@133e16fd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-10-13T12:12:55Z" finished-at="2017-10-13T12:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash.VerifyPaymentMode_Cash() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifyPaymentMode_Cash()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash@133e16fd]" name="VerifyPaymentMode_Cash" duration-ms="1769" started-at="2017-10-13T12:12:55Z" finished-at="2017-10-13T12:12:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir844_9890}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2a326878abf1f073eb92ab222531c8a2
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir844_9890}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2a326878abf1f073eb92ab222531c8a2
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash.VerifyPaymentMode_Cash(TC_010_VerifyPaymentMode_Cash.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Cash_2017_10_286_12_10_794.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Cash_2017_10_286_12_10_794.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyPaymentMode_Cash -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash@133e16fd]" name="getMethod" is-config="true" duration-ms="1" started-at="2017-10-13T12:12:57Z" finished-at="2017-10-13T12:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPaymentMode_Cash status=FAILURE method=TC_010_VerifyPaymentMode_Cash.VerifyPaymentMode_Cash()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash@133e16fd] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Cash_2017_10_286_12_10_794.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Cash_2017_10_286_12_10_794.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash@133e16fd]" name="endTest" is-config="true" duration-ms="287" started-at="2017-10-13T12:12:57Z" finished-at="2017-10-13T12:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage@27fe3806]" name="Setup" is-config="true" duration-ms="5345" started-at="2017-10-13T12:11:40Z" finished-at="2017-10-13T12:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage@27fe3806]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-10-13T12:11:46Z" finished-at="2017-10-13T12:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage.VerifyCustomerNameInCartPag(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifyCustomerNameInCartPag(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage@27fe3806]" name="VerifyCustomerNameInCartPag" duration-ms="1714" started-at="2017-10-13T12:11:46Z" data-provider="TC_002_VerifyCustomerName" finished-at="2017-10-13T12:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8147519664]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[000999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VEENA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9840_1061}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 929a1ca865eeeecb2977d0029ce2f565
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9840_1061}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 929a1ca865eeeecb2977d0029ce2f565
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage.VerifyCustomerNameInCartPag(TC_002_VerifyCustomerNameInCartPage.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_723.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_723.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCustomerNameInCartPag -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage@27fe3806]" name="endTest" is-config="true" duration-ms="224" started-at="2017-10-13T12:11:48Z" finished-at="2017-10-13T12:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage@27fe3806]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:11:48Z" finished-at="2017-10-13T12:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCustomerNameInCartPag status=FAILURE method=TC_002_VerifyCustomerNameInCartPage.VerifyCustomerNameInCartPag(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage@27fe3806] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_723.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyCustomerNameInCartPag_2017_10_286_12_10_723.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch@5e955596]" name="Setup" is-config="true" duration-ms="5628" started-at="2017-10-13T12:13:33Z" finished-at="2017-10-13T12:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch@5e955596]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:38Z" finished-at="2017-10-13T12:13:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch.VerifySalesAfterAddNewBatch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifySalesAfterAddNewBatch()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch@5e955596]" name="VerifySalesAfterAddNewBatch" duration-ms="7882" started-at="2017-10-13T12:13:38Z" finished-at="2017-10-13T12:13:46Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9704_8077}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ea6f9a0ee226984408217a1e11d611c1
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9704_8077}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ea6f9a0ee226984408217a1e11d611c1
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch.VerifySalesAfterAddNewBatch(TC_015_VerifySalesAfterAddNewBatch.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesAfterAddNewBatch_2017_10_286_12_10_517.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesAfterAddNewBatch_2017_10_286_12_10_517.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySalesAfterAddNewBatch -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch@5e955596]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:46Z" finished-at="2017-10-13T12:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySalesAfterAddNewBatch status=FAILURE method=TC_015_VerifySalesAfterAddNewBatch.VerifySalesAfterAddNewBatch()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch@5e955596] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesAfterAddNewBatch_2017_10_286_12_10_517.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifySalesAfterAddNewBatch_2017_10_286_12_10_517.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch@5e955596]" name="endTest" is-config="true" duration-ms="271" started-at="2017-10-13T12:13:46Z" finished-at="2017-10-13T12:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card@51b279c9]" name="Setup" is-config="true" duration-ms="5420" started-at="2017-10-13T12:12:57Z" finished-at="2017-10-13T12:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card@51b279c9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:02Z" finished-at="2017-10-13T12:13:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card.VerifyPaymentMode_Card() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="VerifyPaymentMode_Card()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card@51b279c9]" name="VerifyPaymentMode_Card" duration-ms="1799" started-at="2017-10-13T12:13:02Z" finished-at="2017-10-13T12:13:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir1688_14505}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 28332942ded631610e2bf81fb84976e0
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir1688_14505}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 28332942ded631610e2bf81fb84976e0
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card.VerifyPaymentMode_Card(TC_011_VerifyPaymentMode_Card.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Card_2017_10_286_12_10_675.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Card_2017_10_286_12_10_675.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyPaymentMode_Card -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card@51b279c9]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:13:05Z" finished-at="2017-10-13T12:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPaymentMode_Card status=FAILURE method=TC_011_VerifyPaymentMode_Card.VerifyPaymentMode_Card()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card@51b279c9] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Card_2017_10_286_12_10_675.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyPaymentMode_Card_2017_10_286_12_10_675.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card@51b279c9]" name="endTest" is-config="true" duration-ms="216" started-at="2017-10-13T12:13:05Z" finished-at="2017-10-13T12:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount@4b9e255]" name="Setup" is-config="true" duration-ms="5465" started-at="2017-10-13T12:12:27Z" finished-at="2017-10-13T12:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="VerifyItemCount()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount@4b9e255]" name="VerifyItemCount" duration-ms="7783" started-at="2017-10-13T12:12:33Z" finished-at="2017-10-13T12:12:41Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9588_8298}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 27966f4cfadd600a908787da51b22e49
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9588_8298}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 27966f4cfadd600a908787da51b22e49
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount.VerifyItemCount(TC_008_VerifyTotalItemsCount.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyItemCount_2017_10_286_12_10_217.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyItemCount_2017_10_286_12_10_217.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyItemCount -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount@4b9e255]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:33Z" finished-at="2017-10-13T12:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount.VerifyItemCount() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount@4b9e255]" name="endTest" is-config="true" duration-ms="186" started-at="2017-10-13T12:12:41Z" finished-at="2017-10-13T12:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount@4b9e255]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:41Z" finished-at="2017-10-13T12:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyItemCount status=FAILURE method=TC_008_VerifyTotalItemsCount.VerifyItemCount()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount@4b9e255] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyItemCount_2017_10_286_12_10_217.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyItemCount_2017_10_286_12_10_217.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed@4f51b3e0]" name="Setup" is-config="true" duration-ms="5638" started-at="2017-10-13T12:12:20Z" finished-at="2017-10-13T12:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="TC_007_verifyHighestMRPisDisplayed()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed@4f51b3e0]" name="TC_007_verifyHighestMRPisDisplayed" duration-ms="1648" started-at="2017-10-13T12:12:25Z" finished-at="2017-10-13T12:12:27Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir2852_6532}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d621192360fad5bac28a042c0bbd0471
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir2852_6532}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d621192360fad5bac28a042c0bbd0471
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed.TC_007_verifyHighestMRPisDisplayed(TC_007_VerifyHighestMRPisDisplayed.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\TC_007_verifyHighestMRPisDisplayed_2017_10_286_12_10_354.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\TC_007_verifyHighestMRPisDisplayed_2017_10_286_12_10_354.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_007_verifyHighestMRPisDisplayed -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed@4f51b3e0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:25Z" finished-at="2017-10-13T12:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed.TC_007_verifyHighestMRPisDisplayed() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed@4f51b3e0]" name="endTest" is-config="true" duration-ms="235" started-at="2017-10-13T12:12:27Z" finished-at="2017-10-13T12:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed@4f51b3e0]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:27Z" finished-at="2017-10-13T12:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_007_verifyHighestMRPisDisplayed status=FAILURE method=TC_007_VerifyHighestMRPisDisplayed.TC_007_verifyHighestMRPisDisplayed()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed@4f51b3e0] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\TC_007_verifyHighestMRPisDisplayed_2017_10_286_12_10_354.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\TC_007_verifyHighestMRPisDisplayed_2017_10_286_12_10_354.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed -->
+      <class name="com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage@48a242ce]" name="Setup" is-config="true" duration-ms="5312" started-at="2017-10-13T12:12:03Z" finished-at="2017-10-13T12:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="VerifyDeleteOptionInCart()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage@48a242ce]" name="VerifyDeleteOptionInCart" duration-ms="1762" started-at="2017-10-13T12:12:09Z" finished-at="2017-10-13T12:12:10Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir3220_21814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d0e049e0ec778f2003deb218b1d3418b
+*** Element info: {Using=id, value=new-sale}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir3220_21814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d0e049e0ec778f2003deb218b1d3418b
+*** Element info: {Using=id, value=new-sale}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.Ecolite_Web.UI_Actions.Dashboard.StartSale(Dashboard.java:97)
+	at com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage.VerifyDeleteOptionInCart(TC_005_VerifyDeletionOfItemsInCartPage.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyDeleteOptionInCart_2017_10_286_12_10_767.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyDeleteOptionInCart_2017_10_286_12_10_767.png' hieght='100' width='100' /></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteOptionInCart -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage@48a242ce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:09Z" finished-at="2017-10-13T12:12:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage.VerifyDeleteOptionInCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage@48a242ce]" name="endTest" is-config="true" duration-ms="265" started-at="2017-10-13T12:12:11Z" finished-at="2017-10-13T12:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="getMethod(org.testng.ITestResult)[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage@48a242ce]" name="getMethod" is-config="true" duration-ms="0" started-at="2017-10-13T12:12:11Z" finished-at="2017-10-13T12:12:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDeleteOptionInCart status=FAILURE method=TC_005_VerifyDeletionOfItemsInCartPage.VerifyDeleteOptionInCart()[pri:0, instance:com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage@48a242ce] output=<a href='E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyDeleteOptionInCart_2017_10_286_12_10_767.png' ><img src = 'E:\workspace\Ecolite_Web\src\main\java\com\Ecolite_Web\ScreenShots\FailureScreenshots\VerifyDeleteOptionInCart_2017_10_286_12_10_767.png' hieght='100' width='100' /></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+      </class> <!-- com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Sales Regression Suite -->
 </testng-results>

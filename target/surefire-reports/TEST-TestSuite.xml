@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="143.56" tests="16" errors="0" skipped="0" failures="16">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="url" value="http://111.93.190.155/ecolite/site/login"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\workspace\Ecolite_Web"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="Mobile" value="8147519664"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\workspace\Ecolite_Web"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
+    <property name="classworlds.conf" value="C:\Users\User1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\User1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk1.8.0_144/bin;C:\Program Files\Java\jdk1.8.0_144/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\User1\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Users\User1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\User1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\User1"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="password" value="000999"/>
+    <property name="user.name" value="User1"/>
+    <property name="java.class.path" value="C:\Users\User1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f pom.xml -Dpassword=000999 -Denvironment=QA -DMobile=8147519664 -Durl=http://111.93.190.155/ecolite/site/login test -DsuiteXmlFile=testng.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="environment" value="QA"/>
+    <property name="maven.home" value="C:\Users\User1\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="CheckItemsAddedToCart" classname="com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart" time="9.226">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 35 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9796_24546}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: a0be779d1403926f64617e4c5ad789b9&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9796_24546}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a0be779d1403926f64617e4c5ad789b9
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_001_VerifyItemsAddedIsPresentInCart.CheckItemsAddedToCart(TC_001_VerifyItemsAddedIsPresentInCart.java:32)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:11:30 INFO  TC_001_VerifyItemsAddedIsPresentInCart:23 - Initialising Setup Config
+2017-10-13 12:11:30 INFO  TC_001_VerifyItemsAddedIsPresentInCart:28 - ===== TC_001_VerifyItemsAddedIsPresentInCart Started =====
+2017-10-13 12:11:30 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:11:30 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:11:30 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:11:30 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:11:39 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 34358
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyCustomerNameInCartPag" classname="com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage" time="1.717">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 25 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9840_1061}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 929a1ca865eeeecb2977d0029ce2f565&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9840_1061}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 929a1ca865eeeecb2977d0029ce2f565
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_002_VerifyCustomerNameInCartPage.VerifyCustomerNameInCartPag(TC_002_VerifyCustomerNameInCartPage.java:39)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:11:45 INFO  TC_002_VerifyCustomerNameInCartPage:23 - Initialising Setup Config
+2017-10-13 12:11:46 INFO  TC_002_VerifyCustomerNameInCartPage:34 - ===== Starting Test VerifyCustomerNameInCartPage =======
+2017-10-13 12:11:46 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:11:46 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:11:46 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:11:46 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:11:47 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 25978
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyCustomerNameInCartPag" classname="com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage" time="1.684">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 26 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir1552_11491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: c97f32741d4a91be96da670a31e65423&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir1552_11491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: c97f32741d4a91be96da670a31e65423
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_003_VerifyCustomerNameInCheckOutPage.VerifyCustomerNameInCartPag(TC_003_VerifyCustomerNameInCheckOutPage.java:40)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:11:53 INFO  TC_003_VerifyCustomerNameInCheckOutPage:24 - Initialising Setup Config
+2017-10-13 12:11:53 INFO  TC_003_VerifyCustomerNameInCheckOutPage:35 - ===== Starting Test VerifyCustomerNameInCartPage =======
+2017-10-13 12:11:53 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:11:53 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:11:53 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:11:53 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:11:55 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 2446
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyStockAfterSale" classname="com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale" time="1.789">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 34 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir10548_25136}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 4c1c43b6500cc58736c5264ae7eeb04f&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir10548_25136}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4c1c43b6500cc58736c5264ae7eeb04f
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_004_VerifyStockAfterSale.VerifyStockAfterSale(TC_004_VerifyStockAfterSale.java:32)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:12:01 INFO  TC_004_VerifyStockAfterSale:23 - Initialising Setup Config
+2017-10-13 12:12:01 INFO  TC_004_VerifyStockAfterSale:27 - ===== TC_004_VerifyStockAfterSale Started =======
+2017-10-13 12:12:01 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:12:01 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:12:01 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:12:01 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:12:02 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 33970
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyDeleteOptionInCart" classname="com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage" time="1.762">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 30 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir3220_21814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: d0e049e0ec778f2003deb218b1d3418b&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir3220_21814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d0e049e0ec778f2003deb218b1d3418b
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_005_VerifyDeletionOfItemsInCartPage.VerifyDeleteOptionInCart(TC_005_VerifyDeletionOfItemsInCartPage.java:28)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:12:09 INFO  TC_005_VerifyDeletionOfItemsInCartPage:19 - Initialising Setup Config
+2017-10-13 12:12:09 INFO  TC_005_VerifyDeletionOfItemsInCartPage:24 - ===== TC_005_VerifyDeletionOfItemsInCartPage Started =======
+2017-10-13 12:12:09 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:12:09 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:12:09 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:12:09 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:12:10 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 47759
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyTotalAmtinCheckOutPage" classname="com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice" time="1.697">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 29 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir10720_17748}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: d774118a986a8a0d8a02b43fed21ea49&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir10720_17748}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d774118a986a8a0d8a02b43fed21ea49
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_006_VerifyTotalAmtWithItemPrice.VerifyTotalAmtinCheckOutPage(TC_006_VerifyTotalAmtWithItemPrice.java:32)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:12:17 INFO  TC_006_VerifyTotalAmtWithItemPrice:23 - Initialising Setup Config
+2017-10-13 12:12:17 INFO  TC_006_VerifyTotalAmtWithItemPrice:28 - ===== TC_006_VerifyTotalAmtWithItemPrice Started =====
+2017-10-13 12:12:17 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:12:17 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:12:18 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:12:18 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:12:19 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 17845
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_007_verifyHighestMRPisDisplayed" classname="com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed" time="1.651">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 33 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir2852_6532}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: d621192360fad5bac28a042c0bbd0471&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir2852_6532}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d621192360fad5bac28a042c0bbd0471
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_007_VerifyHighestMRPisDisplayed.TC_007_verifyHighestMRPisDisplayed(TC_007_VerifyHighestMRPisDisplayed.java:29)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:12:25 INFO  TC_007_VerifyHighestMRPisDisplayed:20 - Initialising Setup Config
+2017-10-13 12:12:25 INFO  TC_007_VerifyHighestMRPisDisplayed:25 -  ===== TC_007_VerifyHighestMRPisDisplayed Started =====
+2017-10-13 12:12:25 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:12:25 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:12:25 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:12:26 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:12:27 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 6979
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyItemCount" classname="com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount" time="7.789">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9588_8298}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 27966f4cfadd600a908787da51b22e49&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9588_8298}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 27966f4cfadd600a908787da51b22e49
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_008_VerifyTotalItemsCount.VerifyItemCount(TC_008_VerifyTotalItemsCount.java:32)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:12:33 INFO  TC_008_VerifyTotalItemsCount:23 - Initialising Setup Config
+2017-10-13 12:12:33 INFO  TC_008_VerifyTotalItemsCount:28 -  ===== TC_008_VerifyTotalItemsCount Started =====
+2017-10-13 12:12:33 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:12:33 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:12:33 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:12:33 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:12:41 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 48038
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyTotalAmount" classname="com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage" time="1.789">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 37 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir7996_2899}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: eb52b8a0e7a0efeb2d178d297d1e5b98&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir7996_2899}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: eb52b8a0e7a0efeb2d178d297d1e5b98
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_009_VerifyTotalAmountInCheckOutPage.VerifyTotalAmount(TC_009_VerifyTotalAmountInCheckOutPage.java:32)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:12:47 INFO  TC_009_VerifyTotalAmountInCheckOutPage:23 - Initialising Setup Config
+2017-10-13 12:12:47 INFO  TC_009_VerifyTotalAmountInCheckOutPage:28 -  ===== TC_009_VerifyTotalAmountInCheckOutPage Started =====
+2017-10-13 12:12:47 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:12:47 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:12:47 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:12:47 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:12:49 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 13109
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyPaymentMode_Cash" classname="com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash" time="1.773">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 31 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir844_9890}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 2a326878abf1f073eb92ab222531c8a2&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir844_9890}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2a326878abf1f073eb92ab222531c8a2
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_010_VerifyPaymentMode_Cash.VerifyPaymentMode_Cash(TC_010_VerifyPaymentMode_Cash.java:32)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:12:55 INFO  TC_010_VerifyPaymentMode_Cash:23 - Initialising Setup Config
+2017-10-13 12:12:55 INFO  TC_010_VerifyPaymentMode_Cash:28 -  ===== TC_010_VerifyPaymentMode_Cash Started =====
+2017-10-13 12:12:55 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:12:55 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:12:55 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:12:55 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:12:56 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 2917
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyPaymentMode_Card" classname="com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card" time="1.801">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 28 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir1688_14505}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 28332942ded631610e2bf81fb84976e0&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir1688_14505}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 28332942ded631610e2bf81fb84976e0
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_011_VerifyPaymentMode_Card.VerifyPaymentMode_Card(TC_011_VerifyPaymentMode_Card.java:32)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:13:02 INFO  TC_011_VerifyPaymentMode_Card:23 - Initialising Setup Config
+2017-10-13 12:13:02 INFO  TC_011_VerifyPaymentMode_Card:28 -  ===== TC_011_VerifyPaymentMode_Card Started =====
+2017-10-13 12:13:02 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:13:03 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:13:03 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:13:03 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:13:04 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 29499
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyStockDisplayedIsCorrect" classname="com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect" time="1.658">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 33 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8704_16707}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 2173ac55ad73ac43d55057f99d7f0bd8&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8704_16707}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2173ac55ad73ac43d55057f99d7f0bd8
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect.VerifyStockDisplayedIsCorrect(TC_012_VerifyStockDisplayedIsCorrect.java:37)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:13:10 INFO  TC_012_VerifyStockDisplayedIsCorrect:22 - Initialising Setup Config
+2017-10-13 12:13:10 INFO  TC_012_VerifyStockDisplayedIsCorrect:33 -  ===== TC_012_VerifyStockDisplayedIsCorrect Started =====
+2017-10-13 12:13:10 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:13:10 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:13:10 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:13:10 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:13:12 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 10951
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyStockDisplayedIsCorrect" classname="com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect" time="1.499">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 16 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8704_16707}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 2173ac55ad73ac43d55057f99d7f0bd8&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8704_16707}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 2173ac55ad73ac43d55057f99d7f0bd8
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_012_VerifyStockDisplayedIsCorrect.VerifyStockDisplayedIsCorrect(TC_012_VerifyStockDisplayedIsCorrect.java:37)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:13:12 INFO  TC_012_VerifyStockDisplayedIsCorrect:33 -  ===== TC_012_VerifyStockDisplayedIsCorrect Started =====
+2017-10-13 12:13:12 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:13:12 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:13:12 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:13:12 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:13:14 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyAddNewBatch" classname="com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch" time="1.7">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 24 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir4028_21127}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 7fe11d66e82ec4486f1c22ccbbcdbe3d&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir4028_21127}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7fe11d66e82ec4486f1c22ccbbcdbe3d
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_013_VerifyAddNewBatch.VerifyAddNewBatch(TC_013_VerifyAddNewBatch.java:30)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:13:19 INFO  TC_013_VerifyAddNewBatch:21 - Initialising Setup Config
+2017-10-13 12:13:19 INFO  TC_013_VerifyAddNewBatch:26 -  ===== TC_013_VerifyAddNewBatch Started =====
+2017-10-13 12:13:19 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:13:19 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:13:20 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:13:20 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:13:21 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 39531
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifySalesStart" classname="com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart" time="1.922">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 27 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8868_21602}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1ca37ff3b3f7fc23f07c113fb3336e35&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir8868_21602}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1ca37ff3b3f7fc23f07c113fb3336e35
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_014_VerifySalesStart.VerifySalesStart(TC_014_VerifySalesStart.java:31)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:13:28 INFO  TC_014_VerifySalesStart:22 - Initialising Setup Config
+2017-10-13 12:13:28 INFO  TC_014_VerifySalesStart:27 - ===== TC_014_VerifySalesStart Started =====
+2017-10-13 12:13:28 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:13:28 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:13:28 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:13:28 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:13:30 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 39573
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifySalesAfterAddNewBatch" classname="com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch" time="7.884">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;new-sale&quot;}&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 30 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.226&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9704_8077}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: ea6f9a0ee226984408217a1e11d611c1&#10;*** Element info: {Using=id, value=new-sale}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"new-sale"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9704_8077}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ea6f9a0ee226984408217a1e11d611c1
+*** Element info: {Using=id, value=new-sale}
+	at com.Ecolite_Web.Ecolite_Sales.TC_015_VerifySalesAfterAddNewBatch.VerifySalesAfterAddNewBatch(TC_015_VerifySalesAfterAddNewBatch.java:32)
+</failure>
+    <system-out><![CDATA[2017-10-13 12:13:38 INFO  TC_015_VerifySalesAfterAddNewBatch:23 - Initialising Setup Config
+2017-10-13 12:13:38 INFO  TC_015_VerifySalesAfterAddNewBatch:28 -  ===== TC_015_VerifySalesAfterAddNewBatch Started =====
+2017-10-13 12:13:38 INFO  LoginPage:44 - Clearing the input field 
+2017-10-13 12:13:38 INFO  LoginPage:46 - Entered the input data8147519664 and object is 8147519664
+2017-10-13 12:13:38 INFO  LoginPage:48 - Clearing the input field 
+2017-10-13 12:13:38 INFO  LoginPage:50 - Entered the input data000999 and object is 000999
+2017-10-13 12:13:46 INFO  LoginPage:52 - Clicked on Login button 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 38676
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+</testsuite>
